@@ -10,20 +10,20 @@ class App extends React.Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to = "/">Home</Link>} scroll>
+            <Header className="nav-bar" title={<Link style={{textDecoration: 'none', color: 'white'}} to = "/">Home</Link>} scroll>
                 <Navigation>
-                    <Link to ="/resume">Resume</Link>
                     <Link to ="/aboutme">About Me</Link>
+                    <Link to ="/resume">Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to ="/">Home</Link>}>
                 <Navigation>
-                    <Link to ="/resume">Resume</Link>
                     <Link to ="/aboutme">About Me</Link>
+                    <Link to ="/resume">Resume</Link>
                     <Link to ="/projects">Projects</Link>
-                    <Link to ="/contact">Contact</Link>
+                    <Link to ="/contact">Contact</Link>                
                 </Navigation>
             </Drawer>
             <Content>
