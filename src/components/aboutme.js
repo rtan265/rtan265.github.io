@@ -5,6 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import orionHealth from '../images/orionHealthLogo.jpg';
 import UoACoatOfArms from '../images/resizeUoA.png';
 
+import UncontrolledLottie from './uncontrolledLottie';
 
 class Aboutme extends React.Component{
     constructor(props){
@@ -29,6 +30,9 @@ class Aboutme extends React.Component{
             <div>
                 {/* for graphics */}
                 <div class="graphics-background-aboutme">
+                    <div className = "lotties">
+                        <UncontrolledLottie />
+                    </div>
                 </div>
 
                 {/* for information timeline */}
@@ -48,15 +52,16 @@ class Aboutme extends React.Component{
                             <h3 className="vertical-timeline-element-title">Graduate Teaching Assistant</h3>
                             <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
                             <p>
-                            Second one
+                                Information here
                             </p>
                         </VerticalTimelineElement>
+
                         {/* Orion Health - Data Scientist Intern */}
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: 'rgb(95, 95, 95)', color: '#e06713' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(95, 95, 95)' }}
-                            date={<h3 className = "data-OH">November 2019 - February 2020</h3>}
+                            date={<h3 className = "date-OH">November 2019 - February 2020</h3>}
                             iconOnClick = {this.toOrion}
                             iconStyle={{ background: `url(${orionHealth})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                             visibilitySensorProps = {{partialVisibility: false}}
@@ -72,66 +77,98 @@ class Aboutme extends React.Component{
                                 </h6>
                             </p>
                         </VerticalTimelineElement>
+
+                        {/* Research Assistant UoA */}
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2011 - present"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentStyle={{ background: 'rgb(42, 72, 124)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(42, 72, 124)' }}                            
+                            date={<h3 className = "date-UoA-GTA">February 2019 - November 2019</h3>}
+                            iconOnClick = {this.toUoA}
+                            iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                             visibilitySensorProps = {{partialVisibility: false}}
                             >
                                 
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Auckland, Malaysia</h4>
+                            <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
                             <p>
-                            Third One
+                            Description of role (RA)
                             </p>
                         </VerticalTimelineElement>
+                        
+                        {/* TA - compsci130 */}
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2011 - present"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentStyle={{ background: 'rgb(42, 72, 124)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(42, 72, 124)' }}                            
+                            date={<h3 className = "date-UoA-GTA">February 2019 - June 2019</h3>}
+                            iconOnClick = {this.toUoA}
+                            iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                             visibilitySensorProps = {{partialVisibility: false}}
                             >
                                 
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Auckland, Malaysia</h4>
+                            <h3 className="vertical-timeline-element-title">Undergraduate Teaching Assistant</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
                             <p>
-                            Third One
+                            Description of role (TA)
                             </p>
                         </VerticalTimelineElement>
+
+                        {/* Summer Resaerch Student */}
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2011 - present"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentStyle={{ background: 'rgb(42, 72, 124)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(42, 72, 124)' }}                            
+                            date={<h3 className = "date-UoA-GTA">November 2018 - February 2019</h3>}
+                            iconOnClick = {this.toUoA}
+                            iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                             visibilitySensorProps = {{partialVisibility: false}}
                             >
                                 
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Auckland, Malaysia</h4>
+                            <h3 className="vertical-timeline-element-title">Summer Research Student</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
                             <p>
-                            Third One
+                            Description of role (SRS)
                             </p>
                         </VerticalTimelineElement>
+
+
+                        {/* Research Assistant */}
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2011 - present"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentStyle={{ background: 'rgb(42, 72, 124)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(42, 72, 124)' }}                            
+                            date={<h3 className = "date-UoA-GTA">May 2018 - November 2018</h3>}
+                            iconOnClick = {this.toUoA}
+                            iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                             visibilitySensorProps = {{partialVisibility: false}}
                             >
                                 
-                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Auckland, Malaysia</h4>
+                            <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
                             <p>
-                            Third One
+                            Description of first year RA (SRS)
                             </p>
                         </VerticalTimelineElement>
+
+                        {/* UoO Residential Assistant */}
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgb(42, 72, 124)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(42, 72, 124)' }}                            
+                            date={<h3 className = "date-UoA-GTA">February 2016 - November 2017</h3>}
+                            iconOnClick = {this.toUoA}
+                            iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
+                            visibilitySensorProps = {{partialVisibility: false}}
+                            >
+                                
+                            <h3 className="vertical-timeline-element-title">Residential Assistant</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Dunedin, New Zealand</h4>
+                            <p>
+                            Description of job for residential assistant.
+                            </p>
+                        </VerticalTimelineElement>
+
                     </VerticalTimeline>
                 </div>
             </div>

@@ -9,6 +9,7 @@
     "aos": "^2.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
     "react-mdl": "^2.1.0",
     "react-reveal": "^1.2.2",
     "react-router": "^5.1.2",
