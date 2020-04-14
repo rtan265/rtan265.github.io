@@ -34,7 +34,7 @@
   border-radius: 10px;
 
   position: fixed;
-  top: 30%;
+  top: 50%;
   left: 14%;
   margin-top: -10px;
   margin-left: -10px;
@@ -78,4 +78,39 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+
+/* About Me Css styles */
+.graphics-background-aboutme{
+  display: inline-block;
+  vertical-align: top;
+
+  height: 40vh;
+  width: 100%;
+
+  /* border-style:solid;
+  border-width:1px; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: red;
+
+  }
+
+.graphicExplained-background-aboutme{
+  text-align: center;
+  background: #A1FFCE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.h6-li-aboutme{
+  color: black;
+  text-align: left;
+}
+
+.date-UoA-GTA{
+  color: rgb(42, 72, 124);
 }

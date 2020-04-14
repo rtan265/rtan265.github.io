@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './components/main';
 
 class App extends React.Component {
   render(){
+    window.addEventListener('load', AOS.refresh);
     return (
       <div className="demo-big-content">
         <Layout>
