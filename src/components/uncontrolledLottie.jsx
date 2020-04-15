@@ -16,8 +16,8 @@ class UncontrolledLottie extends React.Component {
         return(
             <div>            
               <Lottie options={defaultOptions}
-                    height={250}
-                    width={250}
+                    height={150}
+                    width={150}
               />
             </div>
         )

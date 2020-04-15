@@ -1,7 +1,9 @@
-.nav-bar{
-  background: #2193b0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.mdl-layout__header-row{
+  background-color:gray !important;
+  /*background: #bdc3c7;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* Landing Page */
@@ -19,11 +21,14 @@
 .background-landing-page{
   width: '100%';
   margin: 'auto';
-  background-image: url("images/landingPagePhoto.jpeg");
-  height: 690px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
+
+  height: 100%;
 }
 
 .banner-text{
@@ -42,21 +47,21 @@
 }
 
 .banner-text h1 {
-  font-size: 40px;
+  font-size: 4em;
   font-weight: bold;
   color: white;
   text-align: center;
 }
 
 .banner-text h2 {
-  font-size: 30px;
+  font-size: 2em;
   color: white;
   text-align: center;
 }
 
 .banner-text p {
   color: white;
-  font-size: 20px;
+  font-size: 1.5em;
   padding: 1em;
   text-align: center;
 }
@@ -83,40 +88,84 @@
 
 /* About Me Css styles */
 .graphics-background-aboutme{
-  background: #ef32d9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   display: inline-block;
   vertical-align: top;
-
-  height: 35vh;
+  height: 25vh;
   width: 100%;
-
   /* border-style:solid;
   border-width:1px; */
   position: sticky;
   top: 0;
   z-index: 1;
 
-  background-color: white;
-
+  background-color: #31708E;
   }
 
 .graphicExplained-background-aboutme{
   text-align: center;
-  background: #A1FFCE;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #A8D0E6; */
+  background: #8FC1E3;
 }
 
-.h6-li-aboutme{
-  color: black;
+.buttons-aboutme{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.orion-health-description-aboutme{
+  color: white;
   text-align: left;
 }
 
+.description-of-papers-taken-hons{
+  text-align: left;
+}
+
+.description-of-papers-taken-gdip{
+  text-align: left;
+}
+
+.vertical-timeline-element--work{
+  background-color: '#2c3531';
+  color: '#fff';
+}
+
+.vertical-timeline-element-title{
+  font-size: '1.5em'
+}
+
+.vertical-timeline-element-subtitle{
+  font-size: '1.5em'
+}
+
+.papers-and-grades{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
 .date-UoA-GTA{
-  color: rgb(42, 72, 124);
+  color: white;
+  font-size: '1.5em';
+}
+
+.date-UoA-BSCH{
+  font-size: '1.5em';
+  color: white;
+}
+
+.vertical-timeline-element-title-educ{
+  text-align: left;
+  font-size: '1.5em';
+}
+
+.vertical-timeline-element-subtitle-educ{
+  text-align: left;
+  font-size: '1.5em';
 }
 
 .lotties{
@@ -130,4 +179,32 @@
     display: grid;
     grid-template-columns: auto;
   }
+}
+
+/* Projects page css */
+.project-in-construction{
+
+}
+
+.body{
+  overflow-y: hidden;
+}
+
+
+
+/* webkit-frames for landing page gradient */
+@-webkit-keyframes AnimationName {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:96% 0%}
+  50%{background-position:5% 100%}
+  100%{background-position:96% 0%}
 }

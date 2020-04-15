@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
@@ -10,13 +9,13 @@ import Main from './components/main';
 
 class App extends React.Component {
   render(){
-    window.addEventListener('load', AOS.refresh);
     return (
       <div className="demo-big-content">
         <Layout>
             <Header className="nav-bar" title={<Link style={{textDecoration: 'none', color: 'white'}} to = "/">Home</Link>} scroll>
                 <Navigation>
                     <Link to ="/aboutme">About Me</Link>
+                    <Link to ="/timelines">Timeline(s)</Link>
                     <Link to ="/resume">Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
@@ -25,6 +24,7 @@ class App extends React.Component {
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to ="/">Home</Link>}>
                 <Navigation>
                     <Link to ="/aboutme">About Me</Link>
+                    <Link to ="/timelines">Timeline(s)</Link>
                     <Link to ="/resume">Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>                
