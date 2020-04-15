@@ -86,7 +86,7 @@
 }
 
 
-/* About Me Css styles */
+/* Timeline page Css styles */
 .graphics-background-aboutme{
 
   display: inline-block;
@@ -108,6 +108,7 @@
   background: #8FC1E3;
 }
 
+/* Work-timeline and Education-timeline styles */
 .buttons-aboutme{
   display: flex;
   justify-content: space-between;
@@ -168,6 +169,7 @@
   font-size: '1.5em';
 }
 
+/* Lottie Animation */
 .lotties{
   display: grid;
   grid-template-columns: auto auto;
@@ -181,17 +183,21 @@
   }
 }
 
+/* Extra-curricular styles */
+.timeline-extr-card{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+}
+
 /* Projects page css */
 .project-in-construction{
 
 }
 
-.body{
-  overflow-y: hidden;
-}
 
-
-
+/* Keyframes */
 /* webkit-frames for landing page gradient */
 @-webkit-keyframes AnimationName {
   0%{background-position:96% 0%}

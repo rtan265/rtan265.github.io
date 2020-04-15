@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { Cell, Grid } from 'react-mdl';
+import { Cell, Grid, Card, CardTitle, CardText, CardActions } from 'react-mdl';
 import 'react-vertical-timeline-component/style.min.css';
 
 import orionHealth from '../images/orionHealthLogo.jpg';
@@ -12,7 +12,7 @@ class Timeline extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            informationToShow: "work"
+            informationToShow: "extr"
         }
     
         this.toOrion = this.toOrion.bind(this);
@@ -199,7 +199,8 @@ class Timeline extends React.Component{
                     <VerticalTimelineElement
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #687864' }}                                          
+                        contentArrowStyle={{ borderRight: '7px solid  #687864' }}     
+                        iconStyle = {{background:'#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">March 2020 - November 2021 (Projected)</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
@@ -219,10 +220,11 @@ class Timeline extends React.Component{
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  #687864' }}  
+                        iconStyle = {{background: '#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">January 2018 - November 2019</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: true}}
+                        visibilitySensorProps = {{partialVisibility: false}}
                         >
                             
                         <h3 className="vertical-timeline-element-title-educ">Graduate Diploma (Computer Science)</h3>
@@ -248,6 +250,7 @@ class Timeline extends React.Component{
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  #687864' }}                                             
+                        iconStyle = {{background: '#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">February 2014 - November 2017</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
@@ -260,11 +263,17 @@ class Timeline extends React.Component{
                     
                 </VerticalTimeline>
             )
+        } else {
+            // Extra-curricular here
+            return(
+                <div className = "timeline-extr-grid">
+                <Grid className = "timeline-extr-card">
+                    
+                </Grid>
+                </div>
+            )
         }
     }
-
-
-
 
 
     render(){
