@@ -1,13 +1,12 @@
 import React from 'react';
 
-class Aboutme extends React.Component{
+
+class AboutMe extends React.Component{
     render(){
-        return (
-            <div>
-                About Me Page by Ryan Tan
-            </div>
+        return(
+            <div>about me</div>
         )
-    }
+    }   
 }
 
-export default Aboutme;
+export default AboutMe;
