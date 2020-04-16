@@ -12,7 +12,7 @@ class Timeline extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            informationToShow: "extr"
+            informationToShow: "work"
         }
     
         this.toOrion = this.toOrion.bind(this);
@@ -235,12 +235,16 @@ class Timeline extends React.Component{
                                 <Cell col={4} className = "A-grade">CS101 - Principles of Programming</Cell>
                                 <Cell col={4} className = "A-grade">CS105 - </Cell>
                                 <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS220 - </Cell>
+                                <Cell col={4} className = "A-grade">CS225 - </Cell>
+                                <Cell col={4} className = "A-grade">CS230 - </Cell>
+                                <Cell col={4} className = "A-grade">CS280 - </Cell>
+                                <Cell col={4} className = "A-grade">CS320 - </Cell>
+                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS345 - </Cell>
+                                <Cell col={4} className = "A-grade">CS361 - </Cell>
+                                <Cell col={4} className = "A-grade">CS373 - </Cell>
+                                <Cell col={4} className = "A-grade">CS380 - </Cell>
                             </Grid>
                         </p>
                     </VerticalTimelineElement>
@@ -259,6 +263,24 @@ class Timeline extends React.Component{
                             
                         <h3 className="vertical-timeline-element-title-educ">Bachelor of Science</h3>
                         <h4 className="vertical-timeline-element-subtitle-educ">University of Otago, Dunedin, New Zealand</h4>
+                        <p className = "description-of-papers-taken-bsc">
+                            <strong>Papers taken:</strong>
+                            <Grid className="papers-and-grades">
+                                <Cell col={4} className = "A-grade"></Cell>
+                                <Cell col={4} className = "A-grade">CS105 - </Cell>
+                                <Cell col={4} className = "A-grade">CS210 - </Cell>
+                                <Cell col={4} className = "A-grade">CS220 - </Cell>
+                                <Cell col={4} className = "A-grade">CS225 - </Cell>
+                                <Cell col={4} className = "A-grade">CS230 - </Cell>
+                                <Cell col={4} className = "A-grade">CS280 - </Cell>
+                                <Cell col={4} className = "A-grade">CS320 - </Cell>
+                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS345 - </Cell>
+                                <Cell col={4} className = "A-grade">CS361 - </Cell>
+                                <Cell col={4} className = "A-grade">CS373 - </Cell>
+                                <Cell col={4} className = "A-grade">CS380 - </Cell>
+                            </Grid>
+                        </p>
                     </VerticalTimelineElement>
                     
                 </VerticalTimeline>
