@@ -213,10 +213,14 @@ class Timeline extends React.Component{
                         visibilitySensorProps = {{partialVisibility: false}}
                         >
                             
-                        <h3 className="vertical-timeline-element-title-educ">Bachelor of Science (Honours)</h3>
+                        <h3 className="vertical-timeline-element-title-educ">Bachelor of Science (Honours) in Computer Science</h3>
                         <h4 className="vertical-timeline-element-subtitle-educ">University of Auckland, Auckland, New Zealand</h4>
                         <p className = "description-of-papers-taken-hons">
-                            Papers taken:
+                            <strong>Papers taken:</strong>
+                            <Grid className="papers-and-grades">
+                                <Cell col={4} className = "A-grade">CS751 - Advanced Topics in Database Systems</Cell>
+                                <Cell col={4} className = "A-grade">CS752 - Big Data Management</Cell>
+                            </Grid>
                         </p>
                         
                     </VerticalTimelineElement>
@@ -230,7 +234,7 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-BSCH">January 2018 - November 2019</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title-educ">Graduate Diploma (Computer Science)</h3>
@@ -239,18 +243,21 @@ class Timeline extends React.Component{
                             <strong>Papers taken:</strong>
                             <Grid className="papers-and-grades">
                                 <Cell col={4} className = "A-grade">CS101 - Principles of Programming</Cell>
-                                <Cell col={4} className = "A-grade">CS105 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS220 - </Cell>
-                                <Cell col={4} className = "A-grade">CS225 - </Cell>
-                                <Cell col={4} className = "A-grade">CS230 - </Cell>
-                                <Cell col={4} className = "A-grade">CS280 - </Cell>
-                                <Cell col={4} className = "A-grade">CS320 - </Cell>
-                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
-                                <Cell col={4} className = "A-grade">CS345 - </Cell>
-                                <Cell col={4} className = "A-grade">CS361 - </Cell>
-                                <Cell col={4} className = "A-grade">CS373 - </Cell>
-                                <Cell col={4} className = "A-grade">CS380 - </Cell>
+                                <Cell col={4} className = "A-grade">CS105 - Principles of Computer Science</Cell>
+                                <Cell col={4} className = "A-grade">CS210 - Computer Systems I</Cell>
+                                <Cell col={4} className = "A-grade">CS220 - Data Structures and Algorithms</Cell>
+                                <Cell col={4} className = "A-grade">CS225 - Discrete Structures in Mathematics and Computer Science</Cell>
+                                <Cell col={4} className = "A-grade">CS230 - Programming Techniques</Cell>
+                                <Cell col={4} className = "A-grade">CS280 - Introduction to Software Development</Cell>
+                                <Cell col={4} className = "A-grade">CS320 - Applied Algorithmics</Cell>
+                                <Cell col={4} className = "A-grade">CS335 - Functional Programming and Distributed Services</Cell>                                
+                                <Cell col={4} className = "A-grade">CS345 - Human-Computer Interaction</Cell>
+                                <Cell col={4} className = "A-grade">CS361 - Machine Learning</Cell>
+                                <Cell col={4} className = "A-grade">CS373 - Computer Graphics and Image Processing</Cell>
+                                <Cell col={4} className = "A-grade">
+                                    CS380 - Undergraduate Project in Computer Science. Project Title: <strong>Investigating the Effects of Notifications on Productivity and Stress</strong>
+                                </Cell>
+                                
                             </Grid>
                         </p>
                     </VerticalTimelineElement>
@@ -264,27 +271,41 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-BSCH">February 2014 - November 2017</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title-educ">Bachelor of Science</h3>
                         <h4 className="vertical-timeline-element-subtitle-educ">University of Otago, Dunedin, New Zealand</h4>
-                        <p className = "description-of-papers-taken-bsc">
+                        <p className = "description-of-papers-taken-gdip">
                             <strong>Papers taken:</strong>
                             <Grid className="papers-and-grades">
-                                <Cell col={4} className = "A-grade"></Cell>
-                                <Cell col={4} className = "A-grade">CS105 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS220 - </Cell>
-                                <Cell col={4} className = "A-grade">CS225 - </Cell>
-                                <Cell col={4} className = "A-grade">CS230 - </Cell>
-                                <Cell col={4} className = "A-grade">CS280 - </Cell>
-                                <Cell col={4} className = "A-grade">CS320 - </Cell>
-                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
-                                <Cell col={4} className = "A-grade">CS345 - </Cell>
-                                <Cell col={4} className = "A-grade">CS361 - </Cell>
-                                <Cell col={4} className = "A-grade">CS373 - </Cell>
-                                <Cell col={4} className = "A-grade">CS380 - </Cell>
+                                <Cell col={4} className = "uoo-papers">CELS191 - Cell and Molecular Biology</Cell>
+                                <Cell col={4} className = "uoo-papers">CHEM191 - The Chemical Basis of Biology and Human Health</Cell>
+                                <Cell col={4} className = "uoo-papers">HUBS191 - Human Biology Systems I</Cell>
+                                <Cell col={4} className = "uoo-papers">PHSI191 - Biological Physics</Cell>
+                                <Cell col={4} className = "uoo-papers">BIOC192 - Foundations of Biochemistry</Cell>
+                                <Cell col={4} className = "uoo-papers">HEAL192 - Foundations of Epidemiology</Cell>
+                                <Cell col={4} className = "uoo-papers">HUBS192 - Human Body Systems II</Cell>
+                                <Cell col={4} className = "uoo-papers">GENE221 - Molecular and Microbial Genetics</Cell>
+                                <Cell col={4} className = "uoo-papers">PSYC111 - Brain and Behavior</Cell>
+                                <Cell col={4} className = "uoo-papers">ANAT242 - Neurobiology</Cell>
+                                <Cell col={4} className = "uoo-papers">BIOC221 - Molecular Biology</Cell>
+                                <Cell col={4} className = "uoo-papers">BITC201 - Bioethics and Life Sciences</Cell>
+                                <Cell col={4} className = "uoo-papers">MICR221 - Microbes to Medicine</Cell>
+                                <Cell col={4} className = "uoo-papers">PHSL231 - Neurophysiology</Cell>
+                                <Cell col={4} className = "uoo-papers">GENE222 - Genes, Chromosomes, and Populations</Cell>
+                                <Cell col={4} className = "uoo-papers">GENE223 - Developmental and Applied Genetics</Cell>
+                                <Cell col={4} className = "uoo-papers">PSYC211 - Brain and Cognition</Cell>
+                                <Cell col={4} className = "uoo-papers">PSYC317 - Biopsychology</Cell>
+                                <Cell col={4} className = "uoo-papers">BIOC352 - Advanced Molecular Biology and Bioinformatics</Cell>
+                                <Cell col={4} className = "uoo-papers">BITC301 - Bioethics</Cell>
+                                <Cell col={4} className = "uoo-papers">PHSL341 - Molecular, Cellular and Integrative Neurophysiology (I)</Cell>
+                                <Cell col={4} className = "uoo-papers">ANAT335 - Neurobiology</Cell>
+                                <Cell col={4} className = "uoo-papers">GENE313 - Medical Genetics</Cell>
+                                <Cell col={4} className = "uoo-papers">GENE314 - Developmental Genetics</Cell>
+                                <Cell col={4} className = "uoo-papers">PSYC319 - Comparative Cognition</Cell>
+
+
                             </Grid>
                         </p>
                     </VerticalTimelineElement>
