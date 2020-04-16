@@ -1,18 +1,24 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { Cell, Grid, Card, CardTitle, CardText, CardActions } from 'react-mdl';
+import { Cell, Grid } from 'react-mdl';
 import 'react-vertical-timeline-component/style.min.css';
 
 import orionHealth from '../images/orionHealthLogo.jpg';
 import UoACoatOfArms from '../images/resizeUoA.png';
 import UncontrolledLottie from './uncontrolledLottie';
+import AUCS from '../images/AUCS.jpg';
+import codeClub from '../images/codeClubAotearoa.jpg';
+import thinkPod from '../images/thinkPod.jpg';
+
 
 class Timeline extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            informationToShow: "work"
+            informationToShow: "extr"
         }
     
         this.toOrion = this.toOrion.bind(this);
@@ -290,6 +296,49 @@ class Timeline extends React.Component{
             return(
                 <div className = "timeline-extr-grid">
                 <Grid className = "timeline-extr-card">
+                <CardDeck>
+                    {/* AUCS */}
+                    <Card>
+                        <Card.Img variant="top" src= {AUCS} />
+                        <Card.Body>
+                        <Card.Title>AUCS - Auckland University Computer Science Society</Card.Title>
+                        <Card.Text>
+                            Description of my role as a Social Events Coordinator/Hackathon Main Organizer
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+
+                    {/* CodeClub Aotearoa */}
+                    <Card>
+                        <Card.Img variant="top" src= {codeClub}/>
+                        <Card.Body>
+                        <Card.Title>Code Club Aotearoa</Card.Title>
+                        <Card.Text>
+                            Description of my volunteering role at Code Club Aotearoa.
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+
+                    {/* ThinkPod Consulting */}
+                    <Card>
+                        <Card.Img variant="top" src= {thinkPod}/>
+                        <Card.Body>
+                        <Card.Title>ThinkPod</Card.Title>
+                        <Card.Text>
+                            Role as a Consultant, and then as a mentor description. 
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+                    </CardDeck>
                     
                 </Grid>
                 </div>

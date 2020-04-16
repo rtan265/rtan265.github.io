@@ -203,17 +203,18 @@
 }
 
 /* Extra-curricular styles */
+.timeline-extr-grid{
+  height: 100vh;  
+}
+
 .timeline-extr-card{
   display: flex;
   justify-content: space-between;
   width: 80%;
-  height: 100%;
 }
 
 /* Projects page css */
-.project-in-construction{
 
-}
 
 
 /* Keyframes */
