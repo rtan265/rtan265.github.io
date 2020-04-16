@@ -7,7 +7,7 @@ class Landing extends React.Component{
             <div className = "background-landing-page">
                 <div className = "banner-text">
                     <h1>Ryan Tan</h1>
-                    <h2>Aspiring Software Developer | Machine Learning Enthusiast</h2>
+                    <h2>Aspiring Software Developer/Engineer | Machine Learning Enthusiast</h2>
 
                     <hr/>
 

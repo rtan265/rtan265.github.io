@@ -31,6 +31,25 @@
   height: 100%;
 }
 
+.in-construction{
+  width: '100%';
+  margin: 'auto';
+  background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
+
+  height: 100%;
+}
+
+.in-text{
+  line-height: 5em;
+  text-align: center;
+  font-size: 5em;
+}
+
 .banner-text{
   background-color: black;
   opacity: .8;
