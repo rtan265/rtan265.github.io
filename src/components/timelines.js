@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { Cell, Grid } from 'react-mdl';
+import { Cell, Grid, Card, CardTitle, CardText, CardActions } from 'react-mdl';
 import 'react-vertical-timeline-component/style.min.css';
 
 import orionHealth from '../images/orionHealthLogo.jpg';
@@ -199,7 +199,8 @@ class Timeline extends React.Component{
                     <VerticalTimelineElement
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #687864' }}                                          
+                        contentArrowStyle={{ borderRight: '7px solid  #687864' }}     
+                        iconStyle = {{background:'#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">March 2020 - November 2021 (Projected)</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
@@ -219,10 +220,11 @@ class Timeline extends React.Component{
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  #687864' }}  
+                        iconStyle = {{background: '#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">January 2018 - November 2019</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: true}}
+                        visibilitySensorProps = {{partialVisibility: false}}
                         >
                             
                         <h3 className="vertical-timeline-element-title-educ">Graduate Diploma (Computer Science)</h3>
@@ -233,12 +235,16 @@ class Timeline extends React.Component{
                                 <Cell col={4} className = "A-grade">CS101 - Principles of Programming</Cell>
                                 <Cell col={4} className = "A-grade">CS105 - </Cell>
                                 <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>
-                                <Cell col={4} className = "A-grade">CS210 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS220 - </Cell>
+                                <Cell col={4} className = "A-grade">CS225 - </Cell>
+                                <Cell col={4} className = "A-grade">CS230 - </Cell>
+                                <Cell col={4} className = "A-grade">CS280 - </Cell>
+                                <Cell col={4} className = "A-grade">CS320 - </Cell>
+                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS345 - </Cell>
+                                <Cell col={4} className = "A-grade">CS361 - </Cell>
+                                <Cell col={4} className = "A-grade">CS373 - </Cell>
+                                <Cell col={4} className = "A-grade">CS380 - </Cell>
                             </Grid>
                         </p>
                     </VerticalTimelineElement>
@@ -248,6 +254,7 @@ class Timeline extends React.Component{
                         className="vertical-timeline-element--educ"
                         contentStyle={{ background: '#687864', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  #687864' }}                                             
+                        iconStyle = {{background: '#F7F9FB'}}                                     
                         date={<h3 className = "date-UoA-BSCH">February 2014 - November 2017</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
@@ -256,15 +263,39 @@ class Timeline extends React.Component{
                             
                         <h3 className="vertical-timeline-element-title-educ">Bachelor of Science</h3>
                         <h4 className="vertical-timeline-element-subtitle-educ">University of Otago, Dunedin, New Zealand</h4>
+                        <p className = "description-of-papers-taken-bsc">
+                            <strong>Papers taken:</strong>
+                            <Grid className="papers-and-grades">
+                                <Cell col={4} className = "A-grade"></Cell>
+                                <Cell col={4} className = "A-grade">CS105 - </Cell>
+                                <Cell col={4} className = "A-grade">CS210 - </Cell>
+                                <Cell col={4} className = "A-grade">CS220 - </Cell>
+                                <Cell col={4} className = "A-grade">CS225 - </Cell>
+                                <Cell col={4} className = "A-grade">CS230 - </Cell>
+                                <Cell col={4} className = "A-grade">CS280 - </Cell>
+                                <Cell col={4} className = "A-grade">CS320 - </Cell>
+                                <Cell col={4} className = "A-grade">CS335 - </Cell>                                
+                                <Cell col={4} className = "A-grade">CS345 - </Cell>
+                                <Cell col={4} className = "A-grade">CS361 - </Cell>
+                                <Cell col={4} className = "A-grade">CS373 - </Cell>
+                                <Cell col={4} className = "A-grade">CS380 - </Cell>
+                            </Grid>
+                        </p>
                     </VerticalTimelineElement>
                     
                 </VerticalTimeline>
             )
+        } else {
+            // Extra-curricular here
+            return(
+                <div className = "timeline-extr-grid">
+                <Grid className = "timeline-extr-card">
+                    
+                </Grid>
+                </div>
+            )
         }
     }
-
-
-
 
 
     render(){
