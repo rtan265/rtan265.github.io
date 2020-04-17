@@ -349,13 +349,18 @@ class Timeline extends React.Component{
                     <Card>
                         <Card.Img variant="top" src= {AUCS} />
                         <Card.Body>
-                        <Card.Title>AUCS - Auckland University Computer Science Society</Card.Title>
+                        <Card.Title>Social and Events Coordinator/Hackathon Organizer (AUCS)</Card.Title>
                         <Card.Text>
-                            Description of my role as a Social Events Coordinator/Hackathon Main Organizer
+                            <p className = "extra-descriptions">
+                            Organized events as part of AUCS. I was part of the team that ran social and competitive events for computer science students at the University of Auckland. In my second year, I was in charge of organizing a Hackathon on behalf of AUCS. Some key highlights:
+                            <li>Raised $500 in sponsorship for the Hackathon event.</li>
+                            <li>Organized judges, and location for the Hackathon event.</li>
+                            <li>Provided competitive, social and informative events for students.</li>
+                            </p>
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">July 2018 - November 2019</small>
                         </Card.Footer>
                     </Card>
 
@@ -363,13 +368,17 @@ class Timeline extends React.Component{
                     <Card>
                         <Card.Img variant="top" src= {codeClub}/>
                         <Card.Body>
-                        <Card.Title>Code Club Aotearoa</Card.Title>
+                        <Card.Title>Volunteer (Code Club Aotearoa)</Card.Title>
                         <Card.Text>
-                            Description of my volunteering role at Code Club Aotearoa.
+                            <p className = "extra-descriptions">
+                            Every saturday, I would volunteer around 1.5 hours of my time to help teach young children (between ages 5-15) how to code in 
+                            the Pakuranga/Panmure local libraries. Classes usually range from 15-20 children, and had a strong focus on design (specifically Scratch, CSS, and JavaScript). 
+                            To keep the children interested in coding with Python and JavaScript, I needed to come up with innovative ways to teach, to keep them interested in coding. 
+                            </p>
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">March 2018 - December 2019</small>
                         </Card.Footer>
                     </Card>
 
@@ -377,13 +386,25 @@ class Timeline extends React.Component{
                     <Card>
                         <Card.Img variant="top" src= {thinkPod}/>
                         <Card.Body>
-                        <Card.Title>ThinkPod</Card.Title>
+                        <Card.Title>Consultant and Mentor (ThinkPod)</Card.Title>
                         <Card.Text>
-                            Role as a Consultant, and then as a mentor description. 
+                            <p className = "extra-descriptions">
+                            As a Consultant:
+                            <li>Conducted interviews with out client to understand their issues.</li>
+                            <li>Conducted research and came up with solutions for a client with a team of 6 other consultants.</li>
+                            <li>Analyzed client issues and produced practical solutions via oral presentation and a written report.</li>
+                            <li>Worked under time pressure (11 academic weeks + University breaks).</li>
+                            <hr />
+                            As a Mentor:
+                            <li>Mentored a group of consultants for Synergy (as part of their ThinkPod program).</li>
+                            <li>Ensured that work is delivered on time according to deadlines.</li>
+                            <li>Provided constructive criticism and support on the team's solutions and issues.</li>
+                            <li>Provided feedback on solutions presented by other teams.</li>
+                            </p>
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">March 2018 - November 2018</small>
                         </Card.Footer>
                     </Card>
                     </CardDeck>
