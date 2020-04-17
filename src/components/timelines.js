@@ -18,7 +18,7 @@ class Timeline extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            informationToShow: "extr"
+            informationToShow: "work"
         }
     
         this.toOrion = this.toOrion.bind(this);
@@ -72,13 +72,18 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">March 2020 - present</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false, onChange: this.onChange}}
+                        visibilitySensorProps = {{partialVisibility: true, onChange: this.onChange}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Graduate Teaching Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                            Information here
+                        <p className = "work-descriptions">
+                            <h6>Currently the tutor for the CS345 (Human-Computer Interaction) class. Lead tutorial discussions, and taught certain concepts in more detail. Created tutorial videos to adapt to changes in content delivery.
+                            Topics covered (to-date):</h6>
+                            <li>Design Walkthroughs</li>
+                            <li>Contextual Inquiry</li>
+                            <li>Heuristic Evaluations</li>
+                            <li>Brainstorming and Problem Framing</li>
                         </p>
                     </VerticalTimelineElement>
 
@@ -90,17 +95,17 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">November 2019 - February 2020</h3>}
                         iconOnClick = {this.toOrion}
                         iconStyle={{ background: `url(${orionHealth})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
 
                         <h3 className="vertical-timeline-element-title">Data Science Intern</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                            <h6 class = "orion-health-description-aboutme">
-                                <li>Conducted User Interviews</li>
-                                <li>Built a web-app using React</li>
-                                <li>Conducted User Testing with Clinicians and Data Scientists on Developed Product</li>
-                            </h6>
+                        <p className = "work-descriptions">
+                            <h6>Over the 2019/2020 summer, I had the opportunity to intern at Orion Health. My project was to develop a proof-of-concept data annotation tool for clinicians. My duties included:</h6>
+                            <li>Conducting user interviews with clinicians and data scientists to elicit preferences for the tool.</li>
+                            <li>Building a proof-of-concept web application using ReactJs and source control using Git.</li>
+                            <li>Conducting usability tests with data scientists, a clinician and UX researcher to get feedback, and prepare feedback for teams to further develop this project.</li>
+                            <li>Writing up a report consisting of literature reviews, methods used, results, and conceptualized several solutions to issues brought up during user interviews.</li>
                         </p>
                     </VerticalTimelineElement>
 
@@ -112,13 +117,17 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">February 2019 - November 2019</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Research Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                        Description of role (RA)
+                        <p className = "work-descriptions">
+                            <h6>During the academic year, I was lucky enough to be given an opportunity to conduct research under the supervision of Dr Danielle Lottridge. Our research looked at how notifications affected the productivity and stress levels of office workers. As part of this research, my duties included:</h6>
+                                <li>Conceptualizing the study, and experiment to be conducted with the research project.</li>
+                                <li>Building a desktop application using C# and used Git as version control. Incorporated biosensors with the developed application to record GSR/SCR and eye movement data.</li>
+                                <li>Recruiting participants and conducting experiments to record data for the project.</li>
+                                <li>Preparing the data collected for a machine learning researcher.</li>
                         </p>
                     </VerticalTimelineElement>
                     
@@ -130,13 +139,19 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">February 2019 - June 2019</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Undergraduate Teaching Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                        Description of role (TA)
+                        <p className = "work-descriptions">
+                            <h6>In Semester One 2019, I had the opportunity to tutor CS130 - Software Fundamentals. The course was taught in Python, with particular emphasis on:</h6>
+                                <li>List Comprehensions</li>
+                                <li>Testing</li>
+                                <li>Recursion</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>Classes</li>
+                                <li>Basic Data Structures and Algorithms</li>
                         </p>
                     </VerticalTimelineElement>
 
@@ -148,7 +163,7 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">November 2018 - February 2019</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Summer Research Student</h3>
@@ -167,7 +182,7 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">May 2018 - November 2018</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Research Assistant</h3>
@@ -185,7 +200,7 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-GTA">February 2016 - November 2017</h3>}
                         iconOnClick = {this.toUoA}
                         iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Residential Assistant</h3>
@@ -210,7 +225,7 @@ class Timeline extends React.Component{
                         date={<h3 className = "date-UoA-BSCH">March 2020 - November 2021 (Projected)</h3>}
                         iconOnClick = {this.toUoA}
                         // iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
-                        visibilitySensorProps = {{partialVisibility: false}}
+                        visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title-educ">Bachelor of Science (Honours) in Computer Science</h3>

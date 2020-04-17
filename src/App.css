@@ -135,6 +135,12 @@
   margin: auto;
 }
 
+.work-descriptions{
+  text-align: left;
+  font-size: 50px;
+
+}
+
 .orion-health-description-aboutme{
   color: white;
   text-align: left;
