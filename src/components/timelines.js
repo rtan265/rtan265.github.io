@@ -8,6 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import orionHealth from '../images/orionHealthLogo.jpg';
 import UoACoatOfArms from '../images/resizeUoA.png';
+import UoO from '../images/hayward.png';
 import UncontrolledLottie from './uncontrolledLottie';
 import AUCS from '../images/AUCS.jpg';
 import codeClub from '../images/codeClubAotearoa.jpg';
@@ -168,8 +169,12 @@ class Timeline extends React.Component{
                             
                         <h3 className="vertical-timeline-element-title">Summer Research Student</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                        Description of role (SRS)
+                        <p className = "work-descriptions">
+                            <h6>During the summer, I was given a studentship position to conduct research for a new project. For this project, my roles included:</h6>
+                                <li>Conceptulizing ideas for data collection.</li>
+                                <li>Conducting literature reviews that included algorithms to detect stress from skin conductance, and using different psycho-physiological sensors to measure stress.</li>
+                                <li>Extracting GSR (Galvanic Skin Response) and SCR (Skin Conductance Responses) from other studies using MATLAB scripts written by other researchers.</li>
+                                <li>Preparing materials for data collection for this project.</li>
                         </p>
                     </VerticalTimelineElement>
 
@@ -187,8 +192,11 @@ class Timeline extends React.Component{
                             
                         <h3 className="vertical-timeline-element-title">Research Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">Auckland, New Zealand</h4>
-                        <p>
-                        Description of first year RA (SRS)
+                        <p className = "work-descriptions">
+                            <h6>In my first year of studying computer science, I volunteered to help a HCI lecturer (Dr Danielle Lottridge) in organizing experiments for students enrolled in the COMPSCI705/SOFTENG702 paper. In addition to this, I took part in learning about one of the studies that Dr Lottridge was organizing, and also ran experiments on behalf of the students who designed that study. My roles included:</h6>
+                                <li>Organizing sessions for participants to participate in the multitasking study.</li>
+                                <li>Followed up with participants that were missing out on some data sets for the study.</li>
+                                <li>Solved issues that came up during the experiment.</li>
                         </p>
                     </VerticalTimelineElement>
 
@@ -199,14 +207,18 @@ class Timeline extends React.Component{
                         contentArrowStyle={{ borderRight: '7px solid  #687864' }}                          
                         date={<h3 className = "date-UoA-GTA">February 2016 - November 2017</h3>}
                         iconOnClick = {this.toUoA}
-                        iconStyle={{ background: `url(${UoACoatOfArms})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
+                        iconStyle={{ background: `url(${UoO})`, imageSize:"1vw", color: '#fff', cursor: 'pointer' }}
                         visibilitySensorProps = {{partialVisibility: true}}
                         >
                             
                         <h3 className="vertical-timeline-element-title">Residential Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">Dunedin, New Zealand</h4>
-                        <p>
-                        Description of job for residential assistant.
+                        <p className = "work-descriptions">
+                            <h6>In my last two years at the University of Otago, I worked as a Residential Assistant at one of the best colleges (Hayward College) in Otago. I worked in a two teams of 9 residential assistants, with whom some are still my closest friends today. These two years were the most enjoyable to me whilst I was in Otago, as this role gave me the opportunity to lead, and inspire other first year students. As a residential assistant, my roles included:</h6>
+                                <li>Providing quality welfare and pastoral care to a group of 153 ethnically diverse first year students.</li>
+                                <li>Organizing events such as the annual Ski Trip to Queenstown and floor events.</li>
+                                <li>Addressed student needs by solving conflicts as a mediator and providing counsel on various personal and academic issues.</li>
+                                <li>Liaison with other colleges and University staff to organize sport and art events for students at the college.</li>                        
                         </p>
                     </VerticalTimelineElement>
 
