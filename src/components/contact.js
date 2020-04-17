@@ -1,11 +1,16 @@
 import React from 'react';
+import { FormControlLabel, FormLabel, RadioGroup, FormControl, Radio } from '@material-ui/core';
 
 class Contact extends React.Component{
+    constructor(props){
+        super(props);
+        
+    }
+
+    
     render(){
         return (
-            <div className = "in-construction">
-                <p className = "in-text">Page under construction, check back soon!</p>
-            </div>
+            
         )
     }
 }
