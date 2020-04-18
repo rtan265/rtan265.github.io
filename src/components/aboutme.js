@@ -47,7 +47,7 @@ class AboutMe extends React.Component{
                         </p>
 
                         <div className = "aboutme-download-cv">
-                            <AwesomeButton type="primary" onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
+                            <AwesomeButton type="primary" disabled={true} onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
                         </div>
 
                     </Cell>

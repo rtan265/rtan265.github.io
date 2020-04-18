@@ -24,9 +24,9 @@
   background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
   background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 11s ease infinite;
-  -moz-animation: AnimationName 11s ease infinite;
-  animation: AnimationName 11s ease infinite;
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
 
   height: 100%;
 }
@@ -36,10 +36,11 @@
   margin: 'auto';
   background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
   background-size: 1000% 1000%;
+  font-size: 0.5em;
 
-  -webkit-animation: AnimationName 11s ease infinite;
-  -moz-animation: AnimationName 11s ease infinite;
-  animation: AnimationName 11s ease infinite;
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
 
   height: 100%;
 }
@@ -224,7 +225,13 @@
 }
 
 /* Projects page css */
-
+.bitmoji-construction-projects{
+  display: block;
+  padding-top: -1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
 
 /* Contacts - and co css */
@@ -246,8 +253,6 @@
   padding-top: 2em;
   /* margin-top: 1em; */
 }
-
-
 
 .contact-labels{
   text-align: left;
@@ -313,7 +318,6 @@
     margin-left: -3em;
   }
 }
-
 
 /* Keyframes */
 /* webkit-frames for landing page gradient */
