@@ -60,8 +60,8 @@
   position: fixed;
   top: 50%;
   left: 14%;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: 0em;
+  margin-left: 0em;
 
 }
 
@@ -235,6 +235,15 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color: white;
+}
+
+.background-contact{
+  background: #83c5ff;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 1em;
+
 }
 
 .contact-labels{
@@ -247,7 +256,43 @@
 }
 
 
+/* AboutMe.js css */
+.aboutme-grid-div{
+  /*  */
+}
 
+.bitmoji-hello{
+  position: fixed;
+  display: block;
+  margin-left: -1.7em;
+  margin-right: auto;
+  top: 25%;
+  background-color: white;
+  height: 27em;
+  width: 27em;
+}
+
+.bitmoji-work{
+  position: fixed;
+  right: 0;
+  top: 25%;
+  height: 27em;
+  width: 27em;
+  background-color: white;
+}
+
+.aboutme-text-header{
+  margin-top: 3em;
+}
+
+.aboutme-text-body-right{
+  text-align: justify;
+}
+
+.aboutme-download-cv{
+  text-align: center;
+  margin-left: -3em;
+}
 
 
 /* Keyframes */

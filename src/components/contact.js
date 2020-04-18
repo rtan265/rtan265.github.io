@@ -30,7 +30,7 @@ class Contact extends React.Component{
             subject: subject,
             message_html: message,
         }
-        // console.log(templateParams);
+        console.log(name);
         console.log("sending");
         // UNCOMMENT THIS:
         emailjs.send(
@@ -64,9 +64,9 @@ class Contact extends React.Component{
 
     render(){
         return (
+            <div className = "background-contact">
             <div className="contact-info-from-user">
-                <h1>Let's chat!</h1>
-                <h4>Contact me here:</h4>
+                <h3>Let's chat!</h3>
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId="formBasicEmail">
                     <p className = "contact-labels">Email Address</p>
@@ -123,6 +123,7 @@ class Contact extends React.Component{
                     </AwesomeButtonProgress>
                     </div>
                 </Form>
+            </div>
             </div>
         )
     }
