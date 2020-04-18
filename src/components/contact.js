@@ -33,6 +33,7 @@ class Contact extends React.Component{
         }
         // console.log(templateParams);
         console.log("sending");
+        // UNCOMMENT THIS:
         // emailjs.send(
         //     'gmail',
         //     'template_sVNMlz53',
@@ -63,7 +64,7 @@ class Contact extends React.Component{
                 <h1>Let's chat!</h1>
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId="formBasicEmail">
-                    <Label className="text-muted">Email address</Label>
+                    <p className = "contact-labels">Email Address</p>
                     <Input
                         type="email"
                         name="email"
@@ -74,7 +75,7 @@ class Contact extends React.Component{
                     />
                     </FormGroup>
                     <FormGroup controlId="formBasicName">
-                    <Label className="text-muted">Name</Label>
+                    <p className = "contact-labels">Name</p>
                     <Input
                         type="text"
                         name="name"
@@ -84,8 +85,9 @@ class Contact extends React.Component{
                         placeholder="Name"
                     />
                     </FormGroup>
-                        <FormGroup controlId="formBasicSubject">
-                    <Label className="text-muted">Subject</Label>
+
+                    <FormGroup controlId="formBasicSubject">
+                    <p className = "contact-labels">Subject</p>
                     <Input
                         type="text"
                         name="subject"
@@ -95,13 +97,15 @@ class Contact extends React.Component{
                         placeholder="Subject"
                     />
                     </FormGroup>
+                    
                     <FormGroup controlId="formBasicMessage">
-                    <Label className="text-muted">Message</Label>
+                    <p className = "contact-labels">Message</p>
                     <Input
                         type="textarea"
                         name="message"
                         className="text-primary"
                         value={this.state.message}
+                        style = {{height: '10em'}}
                         onChange={this.handleChange.bind(this, 'message')}
                     />
                     </FormGroup>
