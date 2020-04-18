@@ -242,8 +242,12 @@
   background: #83c5ff;
   width: 100vw;
   height: 100vh;
-  margin-top: 1em;
+  /* margin-top: -1em; */
+  padding-top: 2em;
+  /* margin-top: 1em; */
 }
+
+
 
 .contact-labels{
   text-align: left;
@@ -269,8 +273,8 @@
 
 .bitmoji-work{
   position: fixed;
-  right: 0;
-  top: 25%;
+  right: 2.3em;
+  top: 27%;
   height: 27em;
   width: 27em;
   background-color: white;
@@ -285,10 +289,16 @@
   margin-left: -3em;
 }
 
+
+
 /* AboutMe css for phones */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  img {
+  .bitmoji-work {
+    visibility: hidden;
+  }
+  
+  .bitmoji-hello {
     visibility: hidden;
   }
   
