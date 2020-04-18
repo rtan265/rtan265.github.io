@@ -1,9 +1,10 @@
 import React from 'react';
 import * as emailjs from 'emailjs-com';
-import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Input } from 'reactstrap';
 
 import { AwesomeButtonProgress } from 'react-awesome-button';
 import "react-awesome-button/dist/styles.css";
+// import { Snackbar, SnackbarContent } from '@material-ui/core';
 
 class Contact extends React.Component{
     constructor(props){
@@ -15,8 +16,6 @@ class Contact extends React.Component{
         subject: '',
         message: ''
         }
-
-    this.handleSubmit = this.handleSubmit.bind(this);
     
     }
 
@@ -34,16 +33,21 @@ class Contact extends React.Component{
         // console.log(templateParams);
         console.log("sending");
         // UNCOMMENT THIS:
-        // emailjs.send(
-        //     'gmail',
-        //     'template_sVNMlz53',
-        //     templateParams,
-        //     'user_l30fz0jZLX29ItnS7Mzf5'
-        // )
-        console.log("sent!");
+        emailjs.send(
+            'gmail',
+            'template_sVNMlz53',
+            templateParams,
+            'user_l30fz0jZLX29ItnS7Mzf5'
+        ).then(function(response){
+            console.log("Sucess!!");
+        }, function(error){
+            console.log("Failed...", error)
+        });
+        
 
         this.resetForm();
     }
+
 
     resetForm(){
         this.setState({
@@ -62,6 +66,7 @@ class Contact extends React.Component{
         return (
             <div className="contact-info-from-user">
                 <h1>Let's chat!</h1>
+                <h4>Contact me here:</h4>
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId="formBasicEmail">
                     <p className = "contact-labels">Email Address</p>
