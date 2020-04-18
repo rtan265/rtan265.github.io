@@ -107,7 +107,6 @@
 
 /* Timeline page Css styles */
 .graphics-background-aboutme{
-
   display: inline-block;
   vertical-align: top;
   height: 25vh;
@@ -236,15 +235,19 @@
   margin-right: auto;
   text-align: center;
   color: white;
+  vertical-align: top;
 }
 
 .background-contact{
   background: #83c5ff;
   width: 100vw;
   height: 100vh;
-  margin-top: 1em;
-
+  /* margin-top: -1em; */
+  padding-top: 2em;
+  /* margin-top: 1em; */
 }
+
+
 
 .contact-labels{
   text-align: left;
@@ -257,24 +260,6 @@
 
 
 /* AboutMe.js css */
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  img {
-    visibility: hidden;
-  }
-  
-  .aboutme-text-body-right{
-    text-align: left;
-    padding-bottom: 1em;
-
-  }
-  
-  .aboutme-download-cv{
-    text-align: center;
-    margin-left: -3em;
-  }
-}
-
 .bitmoji-hello{
   position: fixed;
   display: block;
@@ -288,8 +273,8 @@
 
 .bitmoji-work{
   position: fixed;
-  right: 0;
-  top: 25%;
+  right: 2.3em;
+  top: 27%;
   height: 27em;
   width: 27em;
   background-color: white;
@@ -302,6 +287,31 @@
 .aboutme-download-cv{
   text-align: center;
   margin-left: -3em;
+}
+
+
+
+/* AboutMe css for phones */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bitmoji-work {
+    visibility: hidden;
+  }
+  
+  .bitmoji-hello {
+    visibility: hidden;
+  }
+  
+  .aboutme-text-body-right{
+    text-align: left;
+    padding-bottom: 1em;
+
+  }
+  
+  .aboutme-download-cv{
+    text-align: center;
+    margin-left: -3em;
+  }
 }
 
 
