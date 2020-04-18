@@ -6,7 +6,7 @@ class Resume extends React.Component{
         return (
             <div className ="in-construction">
                 <p className = "in-text">Page under construction, check back soon!</p>
-                <img src = {BitmojiConstruction} className = "bitmoji-construction-projects"/>
+                <img src = {BitmojiConstruction} alt = "Bitmoji Construction" className = "bitmoji-construction-projects"/>
             </div>
         )
     }
