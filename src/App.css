@@ -24,9 +24,9 @@
   background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
   background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 11s ease infinite;
-  -moz-animation: AnimationName 11s ease infinite;
-  animation: AnimationName 11s ease infinite;
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
 
   height: 100%;
 }
@@ -37,9 +37,9 @@
   background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
   background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 11s ease infinite;
-  -moz-animation: AnimationName 11s ease infinite;
-  animation: AnimationName 11s ease infinite;
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
 
   height: 100%;
 }
@@ -313,7 +313,6 @@
     margin-left: -3em;
   }
 }
-
 
 /* Keyframes */
 /* webkit-frames for landing page gradient */
