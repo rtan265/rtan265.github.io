@@ -107,7 +107,6 @@
 
 /* Timeline page Css styles */
 .graphics-background-aboutme{
-
   display: inline-block;
   vertical-align: top;
   height: 25vh;
@@ -236,6 +235,7 @@
   margin-right: auto;
   text-align: center;
   color: white;
+  vertical-align: top;
 }
 
 .background-contact{
@@ -243,7 +243,6 @@
   width: 100vw;
   height: 100vh;
   margin-top: 1em;
-
 }
 
 .contact-labels{
@@ -257,24 +256,6 @@
 
 
 /* AboutMe.js css */
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  img {
-    visibility: hidden;
-  }
-  
-  .aboutme-text-body-right{
-    text-align: left;
-    padding-bottom: 1em;
-
-  }
-  
-  .aboutme-download-cv{
-    text-align: center;
-    margin-left: -3em;
-  }
-}
-
 .bitmoji-hello{
   position: fixed;
   display: block;
@@ -302,6 +283,25 @@
 .aboutme-download-cv{
   text-align: center;
   margin-left: -3em;
+}
+
+/* AboutMe css for phones */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    visibility: hidden;
+  }
+  
+  .aboutme-text-body-right{
+    text-align: left;
+    padding-bottom: 1em;
+
+  }
+  
+  .aboutme-download-cv{
+    text-align: center;
+    margin-left: -3em;
+  }
 }
 
 
