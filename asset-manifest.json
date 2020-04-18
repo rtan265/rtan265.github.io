@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca4693b6.chunk.css",
+    "main.css": "/static/css/main.010ab2cb.chunk.css",
     "main.js": "/static/js/main.ec21e099.chunk.js",
     "main.js.map": "/static/js/main.ec21e099.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6415f509.js",
@@ -9,10 +9,10 @@
     "static/js/2.0a9c22e5.chunk.js": "/static/js/2.0a9c22e5.chunk.js",
     "static/js/2.0a9c22e5.chunk.js.map": "/static/js/2.0a9c22e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aa345b686bd5829382307a7963f415bb.js": "/precache-manifest.aa345b686bd5829382307a7963f415bb.js",
+    "precache-manifest.ef411599497ffb4181673b40ac8d7549.js": "/precache-manifest.ef411599497ffb4181673b40ac8d7549.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e73c258e.chunk.css.map": "/static/css/2.e73c258e.chunk.css.map",
-    "static/css/main.ca4693b6.chunk.css.map": "/static/css/main.ca4693b6.chunk.css.map",
+    "static/css/main.010ab2cb.chunk.css.map": "/static/css/main.010ab2cb.chunk.css.map",
     "static/js/2.0a9c22e5.chunk.js.LICENSE.txt": "/static/js/2.0a9c22e5.chunk.js.LICENSE.txt",
     "static/media/bitmojiHi.png": "/static/media/bitmojiHi.32fc2837.png",
     "static/media/bitmojiWorking.png": "/static/media/bitmojiWorking.55090f74.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.6415f509.js",
     "static/css/2.e73c258e.chunk.css",
     "static/js/2.0a9c22e5.chunk.js",
-    "static/css/main.ca4693b6.chunk.css",
+    "static/css/main.010ab2cb.chunk.css",
     "static/js/main.ec21e099.chunk.js"
   ]
 }
