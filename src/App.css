@@ -257,8 +257,22 @@
 
 
 /* AboutMe.js css */
-.aboutme-grid-div{
-  /*  */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    visibility: hidden;
+  }
+  
+  .aboutme-text-body-right{
+    text-align: left;
+    padding-bottom: 1em;
+
+  }
+  
+  .aboutme-download-cv{
+    text-align: center;
+    margin-left: -3em;
+  }
 }
 
 .bitmoji-hello{
@@ -279,10 +293,6 @@
   height: 27em;
   width: 27em;
   background-color: white;
-}
-
-.aboutme-text-header{
-  margin-top: 3em;
 }
 
 .aboutme-text-body-right{
