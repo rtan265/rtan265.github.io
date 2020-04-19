@@ -390,7 +390,7 @@ class Timeline extends React.Component{
                         <Card.Text>
                             <p className = "extra-descriptions">
                             As a Consultant:
-                            <li>Conducted interviews with out client to understand their issues.</li>
+                            <li>Conducted interviews with our client to understand their issues.</li>
                             <li>Conducted research and came up with solutions for a client with a team of 6 other consultants.</li>
                             <li>Analyzed client issues and produced practical solutions via oral presentation and a written report.</li>
                             <li>Worked under time pressure (11 academic weeks + University breaks).</li>

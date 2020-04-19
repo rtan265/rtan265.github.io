@@ -8,6 +8,7 @@ import Resume from './resume';
 import Contact from './contact';
 import Projects from './projects';
 import AboutMe from './aboutme';
+import NotFoundPage from './notfoundpage';
 
 const Main = () => (
     <Switch>
@@ -18,6 +19,7 @@ const Main = () => (
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
+        <Route path="*" component={NotFoundPage} />
     </Switch>
 )
 
