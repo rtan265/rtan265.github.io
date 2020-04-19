@@ -34,7 +34,7 @@ class AboutMe extends React.Component{
                     </Cell>
                     <Cell col={4}>
 
-                        <h2 className = "aboutme-text-header"><strong>A little about me...</strong></h2>
+                        <h2 className = "aboutme-text-header"><strong>My story so far...</strong></h2>
 
                         <p className = "aboutme-text-body-right">
 
@@ -55,6 +55,8 @@ class AboutMe extends React.Component{
                         <div className = "aboutme-download-cv">
                             <AwesomeButton type="primary" disabled={true} onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
                         </div>
+
+                        <p>P.S. If the button is grayed out, it's because my resume is still a work in progress. Sorry!</p>
 
                     </Cell>
                     <Cell col={4}>

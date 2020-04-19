@@ -77,6 +77,7 @@ class Contact extends React.Component{
                         className="text-primary"
                         onChange={this.handleChange.bind(this, 'email')}
                         placeholder="Enter email"
+                        required
                     />
                     </FormGroup>
                     <FormGroup controlId="formBasicName">
@@ -88,6 +89,7 @@ class Contact extends React.Component{
                         className="text-primary"
                         onChange={this.handleChange.bind(this, 'name')}
                         placeholder="Name"
+                        required
                     />
                     </FormGroup>
 
@@ -100,6 +102,7 @@ class Contact extends React.Component{
                         value={this.state.subject}
                         onChange={this.handleChange.bind(this, 'subject')}
                         placeholder="Subject"
+                        required
                     />
                     </FormGroup>
                     
@@ -112,6 +115,7 @@ class Contact extends React.Component{
                         value={this.state.message}
                         style = {{height: '10em'}}
                         onChange={this.handleChange.bind(this, 'message')}
+                        required
                     />
                     </FormGroup>
                     <div className = "progress-button-contact">

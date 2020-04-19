@@ -227,9 +227,13 @@
 /* Projects page css */
 .projects-grid{
   display: flex;
-  background: red;
 }
 
+/* .mdl-card{
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+} */
 
 
 /* Contacts - and co css */
@@ -247,9 +251,7 @@
   background: #83c5ff;
   width: 100vw;
   height: 100vh;
-  /* margin-top: -1em; */
   padding-top: 2em;
-  /* margin-top: 1em; */
 }
 
 .contact-labels{
@@ -322,8 +324,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 /* Keyframes */
 /* webkit-frames for landing page gradient */
