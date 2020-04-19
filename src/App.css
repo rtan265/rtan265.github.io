@@ -230,6 +230,27 @@
   margin: 1em;
 }
 
+.Naive-Bayes{
+  background: url(images/NaiveBayes.PNG) center / cover;
+}
+
+.group-work-hci{
+  background: url(images/345PageExamplePNG.PNG) center / cover;
+}
+
+.projects-trace-file{
+  background: url(images/traceFileViewer.PNG) center / cover;
+}
+
+.projects-moving-shapes{
+  background: url(images/movingShapes.PNG) center/ cover;
+}
+
+.mdl-card__title-text{
+  margin: auto !important;
+  padding-top: 6.7em !important;
+}
+
 /* Contacts - and co css */
 /* background: #83c5ff; - for the light blue */
 .contact-info-from-user{

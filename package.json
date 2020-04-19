@@ -15,6 +15,7 @@
     "react": "^16.13.1",
     "react-awesome-button": "^6.5.1",
     "react-bootstrap": "^1.0.0",
+    "react-bootstrap-carousel": "^4.0.5",
     "react-collapse": "^5.0.1",
     "react-collapsible": "^2.7.0",
     "react-dom": "^16.13.1",

@@ -8,6 +8,8 @@ import Pdf from '../CVs/ryan-google-cv.pdf';
 
 import { AwesomeButton } from 'react-awesome-button';
 
+import { Link } from 'react-router-dom';
+
 
 class AboutMe extends React.Component{
     constructor(props){
@@ -39,7 +41,7 @@ class AboutMe extends React.Component{
                         <p className = "aboutme-text-body-right">
 
                         <p></p>
-                        <p>Before joining the tech sector, I found myself not enjoying health science. A friend recommended studying Computer Science (CS), which at the time, I wasn't sure about. In 2018, I decided to bite the bullet and dived into CS at the University of Auckland. To this day, I have never regretted making that decision.
+                        <p>Before joining the tech sector, I found myself not enjoying  what I was studying, health science. A friend recommended studying Computer Science (CS), which at the time, I wasn't sure about. In 2018, I decided to bite the bullet and dived into CS at the University of Auckland. To this day, I have never regretted making that decision.
                         <p></p>
                         <p>Hi! I'm Ryan Tan and thank you for visiting my website. I spent the Easter break building this website, and after spending countless of hours styling, thinking about what content to put up and learning how to deploy to my own custom domain, I can finally say that I've managed to finish my list of must-haves. 
                         I'm still currently building this website, so if you have any interesting ideas on making my website feel a little more unique, please shoot me a message! You can find my contact details on my resume or linkedin, as they are not shared here due to scrape bots. </p>
@@ -56,7 +58,7 @@ class AboutMe extends React.Component{
                             <AwesomeButton type="primary" disabled={true} onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
                         </div>
 
-                        <p>P.S. If the button is grayed out, it's because my resume is still a work in progress. Sorry!</p>
+                        <p>P.S. If the button is grayed out, it's because my resume is still a work in progress. Sorry! If you'd like a copy when it's done, please head to the <Link to = "/contact">contact page</Link> and send me an email! I'll endeavour to send it to you as soon as it's up to my standards.</p>
 
                     </Cell>
                     <Cell col={4}>
