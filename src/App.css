@@ -246,9 +246,33 @@
   background: url(images/movingShapes.PNG) center/ cover;
 }
 
+.projects-dat{
+  background: url(images/DAT.PNG) center/ cover;
+}
+
+.projects-tc{
+  background: url(images/tc.PNG) center/ cover;
+}
+
+.projects-hackathon-debug{
+  background: url(images/AUCSHackathon.PNG) center/ cover;
+}
+
+.projects-hackathon-scammr{
+  /* background: url(images/AUCSHackathon.PNG) center/ cover; */
+}
+
+.projects-personal-website{
+  background: url(images/personalWebsite.PNG) center/ cover;
+}
+
 .mdl-card__title-text{
   margin: auto !important;
   padding-top: 6.7em !important;
+}
+
+.mdl-card__supporting-text{
+  padding-top: 2.2em !important;
 }
 
 /* Contacts - and co css */
