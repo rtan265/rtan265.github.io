@@ -225,16 +225,12 @@
 }
 
 /* Projects page css */
-.bitmoji-construction-projects{
-  display: block;
-  padding-top: -1.5em;
-  margin-left: auto;
-  margin-right: auto;
+.projects-grid{
+  display: flex;
+  background: red;
 }
 
-.projects-grid {
-  display: flex;
-}
+
 
 /* Contacts - and co css */
 /* background: #83c5ff; - for the light blue */
@@ -318,6 +314,16 @@
     margin-left: -3em;
   }
 }
+
+/* Resume */
+.bitmoji-construction-projects{
+  display: block;
+  padding-top: -1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* Keyframes */
 /* webkit-frames for landing page gradient */
