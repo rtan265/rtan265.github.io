@@ -9,9 +9,14 @@ class Projects extends React.Component {
         this.state = { activeTab: 0 };
     }
 
-    toGithub(){
-        var orionLink = "https://github.com/rtan265/rtan265.github.io";
-        window.open(orionLink, "_blank");
+    toGithubGroupWorkHCI(){
+        var link = "https://github.com/rtan265/345A3";
+        window.open(link, "_blank");
+    }
+
+    toGithubPersonalWebsite(){
+        var link = "https://github.com/rtan265/rtan265.github.io";
+        window.open(link, "_blank");
     }
 
     toggleCategories() {
@@ -31,7 +36,6 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored disabled = {true}>Github</Button>
                                 </CardActions>
                             </Card>
                         </Col>
@@ -46,7 +50,7 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Github</Button>
+                                    <Button colored onClick = {this.toGithubGroupWorkHCI.bind(this)}>Github</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
@@ -65,7 +69,6 @@ class Projects extends React.Component {
                                 </CardText>
                                 <CardActions border>
                                     <Button colored disabled = {true}>Github</Button>
-                                    <Button colored>Live Demo</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
@@ -84,7 +87,6 @@ class Projects extends React.Component {
                                 </CardText>
                                 <CardActions border>
                                     <Button colored disabled = {true}>Github</Button>
-                                    <Button colored>Live Demo</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
@@ -112,9 +114,6 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored disabled = {true}>Github</Button>
-
-                                    <Button colored>Live Demo</Button>
                                 </CardActions>
                             </Card>
                         </Col>
@@ -129,7 +128,6 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Github</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
@@ -158,7 +156,7 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored onClick={this.toGithub.bind(this)}>Github</Button>
+                                    <Button colored onClick={this.toGithubPersonalWebsite.bind(this)}>Github</Button>
 
                                     <Button colored disabled = {true}>Live Demo</Button>
                                 </CardActions>
@@ -176,7 +174,6 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored>Github</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
@@ -195,8 +192,6 @@ class Projects extends React.Component {
                                     info info info
                                 </CardText>
                                 <CardActions border>
-                                    <Button colored disabled = {true}>Github</Button>
-                                    <Button colored>Live Demo</Button>
                                 </CardActions>
                                 <CardMenu style={{color: '#000'}}>
                                     
