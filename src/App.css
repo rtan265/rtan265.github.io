@@ -225,16 +225,10 @@
 }
 
 /* Projects page css */
-.projects-grid{
-  display: flex;
+.projects-content{
+  justify-content: center; 
+  margin: 1em;
 }
-
-/* .mdl-card{
-  margin-left: 2em;
-  margin-right: 2em;
-  display: flex;
-} */
-
 
 /* Contacts - and co css */
 /* background: #83c5ff; - for the light blue */
