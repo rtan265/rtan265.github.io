@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e5fe13b.chunk.css",
-    "main.js": "/static/js/main.812de186.chunk.js",
-    "main.js.map": "/static/js/main.812de186.chunk.js.map",
+    "main.css": "/static/css/main.b7af2b72.chunk.css",
+    "main.js": "/static/js/main.29a6b836.chunk.js",
+    "main.js.map": "/static/js/main.29a6b836.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6415f509.js",
     "runtime-main.js.map": "/static/js/runtime-main.6415f509.js.map",
     "static/css/2.7429a36b.chunk.css": "/static/css/2.7429a36b.chunk.css",
-    "static/js/2.f32b24d4.chunk.js": "/static/js/2.f32b24d4.chunk.js",
-    "static/js/2.f32b24d4.chunk.js.map": "/static/js/2.f32b24d4.chunk.js.map",
+    "static/js/2.142dc28b.chunk.js": "/static/js/2.142dc28b.chunk.js",
+    "static/js/2.142dc28b.chunk.js.map": "/static/js/2.142dc28b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.205e2c3121f2f667568790154b22a34a.js": "/precache-manifest.205e2c3121f2f667568790154b22a34a.js",
+    "precache-manifest.26063723cdeedc9ee0c968f32896a3b5.js": "/precache-manifest.26063723cdeedc9ee0c968f32896a3b5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7429a36b.chunk.css.map": "/static/css/2.7429a36b.chunk.css.map",
-    "static/css/main.1e5fe13b.chunk.css.map": "/static/css/main.1e5fe13b.chunk.css.map",
-    "static/js/2.f32b24d4.chunk.js.LICENSE.txt": "/static/js/2.f32b24d4.chunk.js.LICENSE.txt",
+    "static/css/main.b7af2b72.chunk.css.map": "/static/css/main.b7af2b72.chunk.css.map",
+    "static/js/2.142dc28b.chunk.js.LICENSE.txt": "/static/js/2.142dc28b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/traceFileViewer.086549bf.PNG",
     "static/media/bitmojiConstruction.png": "/static/media/bitmojiConstruction.81d72cc9.png",
     "static/media/bitmojiHi.png": "/static/media/bitmojiHi.32fc2837.png",
     "static/media/bitmojiWorking.png": "/static/media/bitmojiWorking.55090f74.png",
+    "static/media/penguinsFix.png": "/static/media/penguinsFix.5470d933.png",
     "static/media/ryan-google-cv.pdf": "/static/media/ryan-google-cv.4b3b1edb.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.6415f509.js",
     "static/css/2.7429a36b.chunk.css",
-    "static/js/2.f32b24d4.chunk.js",
-    "static/css/main.1e5fe13b.chunk.css",
-    "static/js/main.812de186.chunk.js"
+    "static/js/2.142dc28b.chunk.js",
+    "static/css/main.b7af2b72.chunk.css",
+    "static/js/main.29a6b836.chunk.js"
   ]
 }
