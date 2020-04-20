@@ -38,8 +38,7 @@ class Projects extends React.Component {
                                     Naive Bayes Classifier</CardTitle>
                                 <CardText>
                                     <hr/>
-                                    As part of the machine learning class that I took in 2019, we were tasked to build a Naive Bayes classifier using Python in Jupyter.
-                                    This was a challenging assignment, but it was worth losing a couple of sleepness nights to finally get it working!
+                                    This assignment was developed in 2019 using Python in Jupyter Notebooks. This program was trained using 4000 instances, and then used to test 1000 instances of biological abstracts.                            
                                 </CardText>
                                 <CardActions border>
                                 </CardActions>
@@ -53,8 +52,7 @@ class Projects extends React.Component {
                                     Group Work Design</CardTitle>
                                 <CardText>
                                     <hr/>
-                                    As part of the human-computer interaction class that I took in 2019, we were tasked to build a group work system that helps students work together. 
-                                    The project had a heavy focus on the design and layout of the website, and we had to build the project using only HTML, CSS and JavaScript. 
+                                    This assignment was developed as a group in 2019 using HTML, CSS and JavaScript. We built and designed this group work system as a group, and only focused on three pages, to reflect on design principles taught in class. 
                                     <p>
                                         My Contributions in the project included:
                                         <li>Managing the overall team.</li>
@@ -78,9 +76,7 @@ class Projects extends React.Component {
                                     Viewing Trace Files</CardTitle>
                                 <CardText>
                                     <hr/>
-                                    In this assignment, I was tasked with building an application that could read trace files, and generate a graph that correlates the amount of data being sent/received. This project was developed in Java in 2018. 
-                                    The main problems I had in this assignment was playing around with the numbers that will be used to generate the graph. It was extremely hard to keep track of what variables stored what numbers, and when to use the numbers to resize the graph.
-                                    In addition to this, deciding on where to put what function and class was also a mission, as I wasn't sure on what functions will go in what class. It was all worth it in the end, after being able to see what was generated in my application. 
+                                    This assignment was developed in 2018 using Java. This application takes in large and small trace files, and generates a visual graph that correlates to the amount of data being sent/received to a particular host.
                                 </CardText>
                                 <CardActions border>
                                     <Button colored disabled = {true}>Github</Button>
@@ -98,8 +94,7 @@ class Projects extends React.Component {
                                     Moving Shapes</CardTitle>
                                 <CardText>
                                     <hr/>
-                                    In this assignment, I was tasked with building an application that could generate shapes when clicking on a random spot in the application. This project was developed in Java in 2018. 
-                                    I had a lot of problems when building this project, mainly because of my lack of programming experience. It was a lot of fun however, once the project was completed, and being able to see what the application can do. 
+                                    This assignment was developed in 2018 using Java. This application generates moving shapes upon a user clicking on a random spot in the window. The user can also choose to change the shapes, colour and moving direction.
                                 </CardText>
                                 <CardActions border>
                                     <Button colored disabled = {true}>Github</Button>
