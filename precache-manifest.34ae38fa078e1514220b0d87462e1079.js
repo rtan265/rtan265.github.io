@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eedf347f2db654fd766e3413b0a99817",
+    "revision": "f0708580be649d3285c5e38c070ac6b3",
     "url": "/index.html"
   },
   {
-    "revision": "03b8efa5cc876c41768f",
+    "revision": "4d0b461dc4ec6f8865bf",
     "url": "/static/css/2.7429a36b.chunk.css"
   },
   {
-    "revision": "71983f2242f52d8f5894",
-    "url": "/static/css/main.b7af2b72.chunk.css"
+    "revision": "461e86ef6b1c305f5ca7",
+    "url": "/static/css/main.11a0906d.chunk.css"
   },
   {
-    "revision": "03b8efa5cc876c41768f",
-    "url": "/static/js/2.142dc28b.chunk.js"
+    "revision": "4d0b461dc4ec6f8865bf",
+    "url": "/static/js/2.e43d07f8.chunk.js"
   },
   {
     "revision": "3ccdcb48153841df72c06fce26c6ddcc",
-    "url": "/static/js/2.142dc28b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e43d07f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71983f2242f52d8f5894",
-    "url": "/static/js/main.29a6b836.chunk.js"
+    "revision": "461e86ef6b1c305f5ca7",
+    "url": "/static/js/main.4132eaef.chunk.js"
   },
   {
     "revision": "8c13a3b699d2ba1ac4b6",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "55090f740c9b551b2ae639b8205d938e",
     "url": "/static/media/bitmojiWorking.55090f74.png"
+  },
+  {
+    "revision": "d28c0ca56d4a61d4042a4443b0084688",
+    "url": "/static/media/landingPagePhoto.d28c0ca5.jpg"
   },
   {
     "revision": "2ff81f291942ff2fc6ced127cebb8484",
