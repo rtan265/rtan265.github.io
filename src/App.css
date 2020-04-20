@@ -41,15 +41,15 @@
   margin: auto;
   border-radius: 10px;
   position: fixed;
-  margin: 10em 2em 2em 2em;
+  margin: 10em 2em 2em 1.5em;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .banner-text {
-    justify-self: center;
-    text-align: center;
     width: 90%;
+    
+    margin-right: auto;
   }
 }
 

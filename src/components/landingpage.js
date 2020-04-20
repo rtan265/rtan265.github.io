@@ -5,7 +5,7 @@ class Landing extends React.Component{
     render(){
         return (
             
-            <div className = "background-landing-page" style={{backgroundImage:`url(${landingPagePhoto})`, backgroundSize:"cover", height: "100%"}}>
+            <div style={{backgroundImage:`url(${landingPagePhoto})`, backgroundSize:"cover", height: "100%", alignContent: "center"}}>
                 <div className = "banner-text">
                     <h1>Ryan Tan</h1>
                     <h2>Aspiring Software Developer/Engineer | Machine Learning Enthusiast</h2>
