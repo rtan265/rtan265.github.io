@@ -60,6 +60,11 @@ class Contact extends React.Component{
 
     handleChange = (param, e) => {
         this.setState({ [param]: e.target.value })
+        if (param === "name"){
+            if (e.target.value === "Jake Peralta"){
+                alert("Noine Noine!");
+            }
+        }
     }
 
     render(){
