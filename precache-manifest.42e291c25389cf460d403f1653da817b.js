@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed72ac91426c143a375d6509816cfa3d",
+    "revision": "9caa2d163fd424f97be9c1d618cb494e",
     "url": "/index.html"
   },
   {
-    "revision": "1d0ba2c5dd969ebd7ea1",
+    "revision": "58c95028bbcf5d1913b4",
     "url": "/static/css/2.7429a36b.chunk.css"
   },
   {
-    "revision": "02e6135eeaa2028a2ee4",
-    "url": "/static/css/main.1cfe6eba.chunk.css"
+    "revision": "4d9fe8917a27bfbd3be1",
+    "url": "/static/css/main.41620d93.chunk.css"
   },
   {
-    "revision": "1d0ba2c5dd969ebd7ea1",
-    "url": "/static/js/2.56d04a1d.chunk.js"
+    "revision": "58c95028bbcf5d1913b4",
+    "url": "/static/js/2.e959ed33.chunk.js"
   },
   {
     "revision": "3ccdcb48153841df72c06fce26c6ddcc",
-    "url": "/static/js/2.56d04a1d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e959ed33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02e6135eeaa2028a2ee4",
-    "url": "/static/js/main.a333dbed.chunk.js"
+    "revision": "4d9fe8917a27bfbd3be1",
+    "url": "/static/js/main.5ff5afbf.chunk.js"
   },
   {
     "revision": "8c13a3b699d2ba1ac4b6",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6a32e6bd57586161b27769b62ab2ecf",
     "url": "/static/media/NaiveBayes.a6a32e6b.PNG"
+  },
+  {
+    "revision": "9af4b989297dfb4d5b79fdc344d9ef9f",
+    "url": "/static/media/Ryan_Tan_April_2020.9af4b989.pdf"
   },
   {
     "revision": "81d72cc9111b122a73e97c32e2125459",
@@ -78,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1e7798f09c5e3e34f275af56081a0a5",
     "url": "/static/media/personalWebsite.b1e7798f.PNG"
-  },
-  {
-    "revision": "4b3b1edb43d8c7eff18f2f4ac5bde51d",
-    "url": "/static/media/ryan-google-cv.4b3b1edb.pdf"
   },
   {
     "revision": "743b2ecdb814fed26fa5eb21f03eae4f",
