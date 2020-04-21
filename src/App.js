@@ -32,20 +32,20 @@ class App extends React.Component {
                 <Navigation>
                     <Link to ="/aboutme">About Me</Link>
                     <Link to ="/timelines">Timeline(s)</Link>
-                    <Link onClick = {() => this.openPdfDesktop()}>Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
                     <Link to ="*">Oh no!</Link>
+                    <Link onClick = {() => this.openPdfDesktop()}><i class="fa fa-download"/>Resume</Link>
                 </Navigation>
             </Header>
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to ="/">Home</Link>}>
                 <Navigation>
                     <Link to ="/aboutme" onClick = {() => this.hideToggle()}>About Me</Link>
                     <Link to ="/timelines" onClick = {() => this.hideToggle()}>Timeline(s)</Link>
-                    <Link onClick = {() => this.openPdf()}>Resume</Link>
                     <Link to ="/projects" onClick = {() => this.hideToggle()}>Projects</Link>
                     <Link to ="/contact" onClick = {() => this.hideToggle()}>Contact</Link>    
                     <Link to ="*" onClick = {() => this.hideToggle()}>Oh no!</Link>            
+                    <Link onClick = {() => this.openPdf()}><i class="fa fa-download"/>Resume</Link>
                 </Navigation>
             </Drawer>
                 <Main />
