@@ -133,7 +133,7 @@ class Projects extends React.Component {
                                     <p>
                                         Lessons learnt:
                                         <li>Don't be afraid to ask for help when you're stuck.</li>
-                                        <li>Fail fast and fail hard.</li>
+                                        <li>To learn quickly, you need to learn to be comfortable with failing.</li>
                                         <li>Don't ask potential users what they want in software. Co-design with them to find out their preferences.</li>
                                     </p>
                                 </CardText>
@@ -156,7 +156,7 @@ class Projects extends React.Component {
                                         Lessons learnt:
                                         <li>Have meaningful variable names ("Hey Ryan, what does Image31 and Image32 mean?").</li>
                                         <li>Have meaningful commit names ("small change in main.cs" make absolutely no sense).</li>
-                                        <li>Do not use absolute positions!!!!!! Just because it works on your machine, doesn't mean it will work on others.</li>
+                                        <li>Do not use absolute positions!!!!!! Just because it looks good on your machine, doesn't mean it'll look good on others.</li>
                                     </p>
                                 </CardText>
                                 <CardActions border>
@@ -233,7 +233,7 @@ class Projects extends React.Component {
                                 <CardText>
                                     <hr/>
                                     This was my first ever hackathon. I've only programmed for less than 6 months, so everything was new to me. 
-                                    I worked on this project back in May 2018 with 3 other clueless students (who we are still friends today), and we had a lot of fun learning developing as a group, and also how to work collaboratively as a team. 
+                                    I worked on this project back in May 2018 with 3 other clueless students (who we are still friends today), and we had a lot of fun learning about developing as a group, and also how to work collaboratively as a team. 
                                     <p>
                                         P.S. The code that you see in that Github is really bad, so I wouldn't suggest going into it!
                                         <p></p>
