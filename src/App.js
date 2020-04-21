@@ -7,10 +7,17 @@ import { Layout, Header, Navigation, Drawer } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './components/main';
 
+import Pdf from './CVs/Ryan_Tan_April_2020.pdf';
+
 class App extends React.Component {
   hideToggle() {
     var selectorId = document.querySelector('.mdl-layout');
     selectorId.MaterialLayout.toggleDrawer();
+  }
+
+  openPdf(){
+    window.open(Pdf);
+    this.hideToggle();
   }
 
   render(){
@@ -21,7 +28,7 @@ class App extends React.Component {
                 <Navigation>
                     <Link to ="/aboutme">About Me</Link>
                     <Link to ="/timelines">Timeline(s)</Link>
-                    <Link to ="/resume">Resume</Link>
+                    <Link onClick = {() => this.openPdf()}>Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
                     <Link to ="*">Oh no!</Link>
@@ -31,7 +38,7 @@ class App extends React.Component {
                 <Navigation>
                     <Link to ="/aboutme" onClick = {() => this.hideToggle()}>About Me</Link>
                     <Link to ="/timelines" onClick = {() => this.hideToggle()}>Timeline(s)</Link>
-                    <Link to ="/resume" onClick = {() => this.hideToggle()}>Resume</Link>
+                    <Link onClick = {() => this.openPdf()}>Resume</Link>
                     <Link to ="/projects" onClick = {() => this.hideToggle()}>Projects</Link>
                     <Link to ="/contact" onClick = {() => this.hideToggle()}>Contact</Link>    
                     <Link to ="*" onClick = {() => this.hideToggle()}>Oh no!</Link>            

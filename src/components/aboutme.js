@@ -4,11 +4,10 @@ import { Grid, Cell } from 'react-mdl';
 
 import BitmojiHello from '../images/bitmojiHi.png';
 import BitmojiWork from '../images/bitmojiWorking.png';
-import Pdf from '../CVs/ryan-google-cv.pdf';
+import Pdf from '../CVs/Ryan_Tan_April_2020.pdf';
 
 import { AwesomeButton } from 'react-awesome-button';
 
-import { Link } from 'react-router-dom';
 
 
 class AboutMe extends React.Component{
@@ -19,10 +18,7 @@ class AboutMe extends React.Component{
     }
 
     handleClick = () => {
-        console.log("clicked");
         window.open(Pdf);
-        console.log("return");
-        
     }
 
     render(){
@@ -55,10 +51,9 @@ class AboutMe extends React.Component{
                         </p>
 
                         <div className = "aboutme-download-cv">
-                            <AwesomeButton type="primary" disabled={true} onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
+                            <AwesomeButton type="primary" onPress = {this.handleClick}>Click to Download my CV</AwesomeButton>
                         </div>
 
-                        <p>P.S. If the button is grayed out, it's because my resume is still a work in progress. Sorry! If you'd like a copy when it's done, please head to the <Link to = "/contact">contact page</Link> and send me an email! I'll endeavour to send it to you as soon as it's up to my standards.</p>
 
                     </Cell>
                     <Cell col={4}>
