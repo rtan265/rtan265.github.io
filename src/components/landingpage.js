@@ -1,5 +1,4 @@
 import React from 'react';
-import landingPagePhoto from '../images/landingPagePhoto.jpg';
 
 class Landing extends React.Component{
     render(){

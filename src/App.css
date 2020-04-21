@@ -21,11 +21,11 @@
   -o-background-size: cover;
   background-size: cover;
   background-position: relative; 
-  background-size: 100%;
-  min-height: 100vh;
+  min-height: 91.5vh;
   align-content: center;
   top: 0;
   background-repeat: no-repeat;
+  overflow-y: hidden;
 }
 
 .in-construction{
@@ -34,11 +34,9 @@
   background: linear-gradient(44deg, #687864, #31708e, #5085a5, #8fc1e3, #f7f9fb);
   background-size: 1000% 1000%;
   font-size: 0.5em;
-
   -webkit-animation: AnimationName 9s ease infinite;
   -moz-animation: AnimationName 9s ease infinite;
   animation: AnimationName 9s ease infinite;
-
   height: 100%;
 }
 
@@ -63,6 +61,24 @@
   /* For mobile phones: */
   .landingPageBackground{
     background: url('./images/landingMobile.jpg');
+    min-height: 100vh;
+  }
+
+  .banner-text {
+    width: 90%;
+    margin-right: auto;
+    margin-top: 5em;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
+  /* For iPad Pro */
+  .landingPageBackground{
+    background: url('./images/landingTablet.jpg');
+    min-height: 100vh;
   }
 
   .banner-text {
