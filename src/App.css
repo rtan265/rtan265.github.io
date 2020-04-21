@@ -6,7 +6,7 @@
 /* Landing Page Background */
 .landing-grid{
   background:grey;
-  position: fixed;
+  position: relative;
   text-align: center;
   top: 10;
   left: 0;
@@ -38,9 +38,8 @@
   background-color: black;
   opacity: .8;
   width: 50%;
-  margin: auto;
   border-radius: 10px;
-  position: fixed;
+  position: relative;
   margin: 10em 2em 2em 1.5em;
 }
 
@@ -48,7 +47,6 @@
   /* For mobile phones: */
   .banner-text {
     width: 90%;
-    
     margin-right: auto;
   }
 }

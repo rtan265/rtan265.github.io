@@ -1,11 +1,11 @@
 import React from 'react';
-import landingPagePhoto from '../images/landingPagePhoto.gif';
+import landingPagePhoto from '../images/landingPagePhoto.jpg';
 
 class Landing extends React.Component{
     render(){
         return (
             
-            <div style={{backgroundImage:`url(${landingPagePhoto})`, backgroundSize:"cover", height: "100%", alignContent: "center"}}>
+            <div style={{background:`url(${landingPagePhoto})`, backgroundPosition: "relative", backgroundSize: "100%",height: "100%", alignContent: "center", backgroundRepeat: "None", top: "0"}}>
                 <div className = "banner-text">
                     <h1>Ryan Tan</h1>
                     <h2>Aspiring Software Developer/Engineer | Machine Learning Enthusiast</h2>

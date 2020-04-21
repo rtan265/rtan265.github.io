@@ -32,10 +32,10 @@ class App extends React.Component {
                     <Link to ="*">Oh no!</Link>            
                 </Navigation>
             </Drawer>
-            <Content>
-                <div className="page-content" />
+            {/* <Content> */}
+                {/* <div className="page-content"/> */}
                 <Main />
-            </Content>
+            {/* </Content> */}
         </Layout>
       </div>
     );
