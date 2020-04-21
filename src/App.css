@@ -74,23 +74,6 @@
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
-  /* For iPad Pro */
-  .landingPageBackground{
-    background: url('./images/landingTablet.jpg');
-    min-height: 100vh;
-  }
-
-  .banner-text {
-    width: 90%;
-    margin-right: auto;
-    margin-top: 5em;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
 .banner-text h1 {
   font-size: 3em;
   font-weight: bold;
