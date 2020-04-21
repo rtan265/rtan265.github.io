@@ -20,6 +20,10 @@ class App extends React.Component {
     this.hideToggle();
   }
 
+  openPdfDesktop(){
+    window.open(Pdf);
+  }
+
   render(){
     return (
       <div className="demo-big-content">
@@ -28,7 +32,7 @@ class App extends React.Component {
                 <Navigation>
                     <Link to ="/aboutme">About Me</Link>
                     <Link to ="/timelines">Timeline(s)</Link>
-                    <Link onClick = {() => this.openPdf()}>Resume</Link>
+                    <Link onClick = {() => this.openPdfDesktop()}>Resume</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
                     <Link to ="*">Oh no!</Link>
