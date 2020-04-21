@@ -14,6 +14,20 @@
   height: 100%;
 }
 
+.landingPageBackground{
+  background: url('./images/landingPagePhoto.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: relative; 
+  background-size: 100%;
+  min-height: 100vh;
+  align-content: center;
+  top: 0;
+  background-repeat: no-repeat;
+}
+
 .in-construction{
   width: '100%';
   margin: 'auto';
@@ -36,30 +50,40 @@
 
 .banner-text{
   background-color: black;
+  
   opacity: .8;
   width: 50%;
   border-radius: 10px;
   position: relative;
-  margin: 10em 2em 2em 1.5em;
+  top: 25%;
+  left: 5%;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .landingPageBackground{
+    background: url('./images/landingMobile.jpg');
+  }
+
   .banner-text {
     width: 90%;
     margin-right: auto;
+    margin-top: 5em;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
 .banner-text h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   color: white;
   text-align: center;
 }
 
 .banner-text h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   text-align: center;
 }

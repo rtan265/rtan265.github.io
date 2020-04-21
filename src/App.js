@@ -3,7 +3,7 @@ import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './components/main';
 
@@ -32,10 +32,7 @@ class App extends React.Component {
                     <Link to ="*">Oh no!</Link>            
                 </Navigation>
             </Drawer>
-            {/* <Content> */}
-                {/* <div className="page-content"/> */}
                 <Main />
-            {/* </Content> */}
         </Layout>
       </div>
     );
