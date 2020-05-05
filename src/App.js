@@ -34,7 +34,7 @@ class App extends React.Component {
                     <Link to ="/timelines">Timeline(s)</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
-                    <Link to ="/experiences">Experiences</Link>git 
+                    <Link to ="/experiences">Experiences</Link>
                     <Link to ="*">Oh no!</Link>
                     <Link onClick = {() => this.openPdfDesktop()}><i class="fa fa-download"/>Resume</Link>
                 </Navigation>
