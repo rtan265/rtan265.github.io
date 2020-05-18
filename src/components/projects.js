@@ -202,6 +202,28 @@ class Projects extends React.Component {
                             </Card>
                         </Col>
 
+                        {/* MERN - Movie Application */}
+                        <Col  xs={12} md = {6} lg={4} style={{marginBottom: '4em'}}>
+                            <Card shadow = {5} style = {{mindWidth: '450', margin: 'auto'}}>
+                                <CardTitle className = "projects-mern-movieapps" style = {{color: '#000', height: '176px'}}>
+                                    MERN Application
+                                </CardTitle>
+                                <CardText>
+                                    <hr/>
+                                    some description
+                                    <p>
+                                        list of what I learnt
+                                    </p>
+                                </CardText> 
+                                <CardActions border>
+
+                                </CardActions>
+                                <CardMenu style = {{color: '#000'}}>
+
+                                </CardMenu>
+                            </Card>
+                        </Col>
+
                         {/* DEVS hackathon */}
                         <Col xs={12} md = {6} lg={4} style={{marginBottom: '4em'}}>
                             <Card shadow={5} style ={{minWidth: '450', margin: 'auto'}}>
