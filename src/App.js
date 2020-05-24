@@ -34,7 +34,7 @@ class App extends React.Component {
                     <Link to ="/timelines">Timeline(s)</Link>
                     <Link to ="/projects">Projects</Link>
                     <Link to ="/contact">Contact</Link>
-                    <Link to ="/experiences">Experiences</Link>
+                    {/* <Link to ="/testimonials">Testimonials</Link> */}
                     <Link to ="*">Oh no!</Link>
                     <Link onClick = {() => this.openPdfDesktop()}><i class="fa fa-download"/>Resume</Link>
                 </Navigation>
@@ -45,7 +45,7 @@ class App extends React.Component {
                     <Link to ="/timelines" onClick = {() => this.hideToggle()}>Timeline(s)</Link>
                     <Link to ="/projects" onClick = {() => this.hideToggle()}>Projects</Link>
                     <Link to ="/contact" onClick = {() => this.hideToggle()}>Contact</Link>    
-                    <Link to ="/experiences" onClick = {() => this.hideToggle()}>Experiences</Link>
+                    {/* <Link to ="/testimonials" onClick = {() => this.hideToggle()}>Testimonials</Link> */}
                     <Link to ="*" onClick = {() => this.hideToggle()}>Oh no!</Link>            
                     <Link onClick = {() => this.openPdf()}><i class="fa fa-download"/>Resume</Link>
                 </Navigation>
