@@ -71,7 +71,7 @@ class Contact extends React.Component{
         return (
             <div className = "background-contact">
             <div className="contact-info-from-user">
-                <h3>Let's chat!</h3>
+                <h3 className = "contact-labels-header">Let's chat!</h3>
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId="formBasicEmail">
                     <p className = "contact-labels">Email Address</p>
@@ -85,6 +85,7 @@ class Contact extends React.Component{
                         required
                     />
                     </FormGroup>
+
                     <FormGroup controlId="formBasicName">
                     <p className = "contact-labels">Name</p>
                     <Input

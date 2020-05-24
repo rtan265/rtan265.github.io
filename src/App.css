@@ -322,7 +322,6 @@
 }
 
 .background-contact{
-  background: #83c5ff;
   width: 100vw;
   height: 100vh;
   padding-top: 2em;
@@ -330,6 +329,12 @@
 
 .contact-labels{
   text-align: left;
+  color: black;
+}
+
+.contact-labels-header{
+  text-align: center;
+  color: black;
 }
 
 .progress-button-contact{
