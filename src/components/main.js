@@ -7,7 +7,7 @@ import Timelines from './timelines';
 import Resume from './resume';
 import Contact from './contact';
 // import Projects from './projects';
-import Projects from './newProjectPage';
+import Projects from './projects';
 import AboutMe from './aboutme';
 import NotFoundPage from './notfoundpage';
 import Testimonials from './testimonial';
