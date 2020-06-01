@@ -203,7 +203,7 @@ class Projects extends React.Component {
                         </Col>
 
                         {/* MERN - Movie Application */}
-                        <Col  xs={12} md = {6} lg={4} style={{marginBottom: '4em'}}>
+                        {/* <Col  xs={12} md = {6} lg={4} style={{marginBottom: '4em'}}>
                             <Card shadow = {5} style = {{mindWidth: '450', margin: 'auto'}}>
                                 <CardTitle className = "projects-mern-movieapps" style = {{color: '#000', height: '176px'}}>
                                     MERN Application
@@ -222,7 +222,7 @@ class Projects extends React.Component {
 
                                 </CardMenu>
                             </Card>
-                        </Col>
+                        </Col> */}
 
                         {/* DEVS hackathon */}
                         <Col xs={12} md = {6} lg={4} style={{marginBottom: '4em'}}>
