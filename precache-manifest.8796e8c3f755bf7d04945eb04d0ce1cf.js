@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6fa5643f2b42a09f3df4efdb4a4eef5",
+    "revision": "4e00340d734c207f1ad7b38dd5cb9e70",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.7429a36b.chunk.css"
   },
   {
-    "revision": "2dd974e8d7b04ccadb90",
+    "revision": "d7fa2cadaedbd5944164",
     "url": "/static/css/main.cef83216.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1d63d138.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dd974e8d7b04ccadb90",
-    "url": "/static/js/main.1735a0c9.chunk.js"
+    "revision": "d7fa2cadaedbd5944164",
+    "url": "/static/js/main.7234f4ae.chunk.js"
   },
   {
     "revision": "8c13a3b699d2ba1ac4b6",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NaiveBayes.a6a32e6b.PNG"
   },
   {
-    "revision": "e1dcc435449eb9af9c87b94d45d98a9c",
-    "url": "/static/media/Ryan_Tan_April_2020.e1dcc435.pdf"
+    "revision": "c16580b76ff70c7606c13a86114c2323",
+    "url": "/static/media/Ryan_Tan_July_2020.c16580b7.pdf"
   },
   {
     "revision": "81d72cc9111b122a73e97c32e2125459",
