@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e00340d734c207f1ad7b38dd5cb9e70",
+    "revision": "4f7636fba8d6700e13e2ff8b4bd8772f",
     "url": "/index.html"
   },
   {
-    "revision": "fe5ca3ff6cf471baa077",
-    "url": "/static/css/2.7429a36b.chunk.css"
+    "revision": "9954bab780cf27d4079e",
+    "url": "/static/css/2.895e90f8.chunk.css"
   },
   {
-    "revision": "d7fa2cadaedbd5944164",
-    "url": "/static/css/main.cef83216.chunk.css"
+    "revision": "f6921e776726cbcb2c84",
+    "url": "/static/css/main.fb21880f.chunk.css"
   },
   {
-    "revision": "fe5ca3ff6cf471baa077",
+    "revision": "9954bab780cf27d4079e",
     "url": "/static/js/2.1d63d138.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1d63d138.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7fa2cadaedbd5944164",
-    "url": "/static/js/main.7234f4ae.chunk.js"
+    "revision": "f6921e776726cbcb2c84",
+    "url": "/static/js/main.323ec8c0.chunk.js"
   },
   {
     "revision": "8c13a3b699d2ba1ac4b6",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/DAT.39e994c7.PNG"
   },
   {
-    "revision": "a6a32e6bd57586161b27769b62ab2ecf",
-    "url": "/static/media/NaiveBayes.a6a32e6b.PNG"
+    "revision": "e42e419438ccd6cb76441af7018a9fd5",
+    "url": "/static/media/IEEE_Ryan_TAN.e42e4194.pdf"
   },
   {
-    "revision": "c16580b76ff70c7606c13a86114c2323",
-    "url": "/static/media/Ryan_Tan_July_2020.c16580b7.pdf"
+    "revision": "a6a32e6bd57586161b27769b62ab2ecf",
+    "url": "/static/media/NaiveBayes.a6a32e6b.PNG"
   },
   {
     "revision": "81d72cc9111b122a73e97c32e2125459",
