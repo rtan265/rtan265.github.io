@@ -7,7 +7,7 @@ import { Layout, Header, Navigation, Drawer } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './components/main';
 
-import Pdf from './CVs/Ryan_Tan_July_2020.pdf';
+import Pdf from '../CVs/IEEE_Ryan_TAN.pdf';
 
 class App extends React.Component {
   hideToggle() {
