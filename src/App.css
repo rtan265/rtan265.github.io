@@ -578,3 +578,11 @@
             transform: translate(0);
   }
 }
+
+.title-construction{
+  text-align: center;
+}
+
+.body-construction{
+  text-align: center;
+}

@@ -2,9 +2,6 @@ import React from 'react';
 
 
 class Testimonials extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return(

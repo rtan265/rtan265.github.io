@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 
 import BitmojiHello from '../images/bitmojiHi.png';
 import BitmojiWork from '../images/bitmojiWorking.png';
-import Pdf from '../CVs/IEEE_Ryan_TAN.pdf';
+import Pdf from '../CVs/RyanTanCV.pdf';
 
 import { AwesomeButton } from 'react-awesome-button';
 

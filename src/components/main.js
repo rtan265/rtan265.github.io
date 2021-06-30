@@ -11,11 +11,13 @@ import Projects from './projects';
 import AboutMe from './aboutme';
 import NotFoundPage from './notfoundpage';
 import Testimonials from './testimonial';
+import UnderConstruction from './underConstruction';
 
 const Main = () => (
     <Switch>
         {/* exact - anything that matches thereafter path will render components together.  */}
-        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/" component={UnderConstruction} />
+        <Route path="/homepage" component={LandingPage} />
         <Route path="/timelines" component={Timelines} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/resume" component={Resume} />
