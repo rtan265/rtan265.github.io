@@ -1,9 +1,14 @@
+.nav {
+  text-align: left;
+}
+
 .nav-link {
   font-family: 'Zen Antique Soft', serif;
   font-size: 9;
+  font-weight: 500;
   color: black;
   text-decoration: none;
-  float: left;
+  display: inline-block;
   padding: 2vw 4vw 2vw 4vw;
 }
 
