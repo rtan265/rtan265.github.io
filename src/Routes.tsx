@@ -1,15 +1,12 @@
 import { Route, Switch } from "react-router-dom";
 
-import Home from './pages/Home/Home';
+import HomePage from './pages/Home/Home';
 
 export default function Routes() {
   return (
-    // <BrowserRouter>
       <Switch>
         <Route exact path = "/">
-          <Home />
-        </Route>
-        <Route path = "/about">
+          <HomePage />
         </Route>
         <Route path = "/blog">
         </Route>
@@ -21,6 +18,5 @@ export default function Routes() {
             {/* insert 404 page here */}
         </Route>
       </Switch>
-    // </BrowserRouter>
   )
 }
