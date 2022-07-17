@@ -7,6 +7,10 @@
   float: left;
 }
 
+.home-div {
+  background: #13B5EA;
+}
+
 .ryan-intro-text {
   margin-top: 25vh;
   width: 50%;

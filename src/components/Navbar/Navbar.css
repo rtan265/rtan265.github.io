@@ -1,5 +1,19 @@
-.nav {
+.main-nav {
   text-align: left;
+  overflow: auto;
+}
+
+.left-side {
+  float: left;
+  text-align: left;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.right-side {
+  float: right;
+  margin-right: 10em;
+  margin-top: 1em;
 }
 
 .nav-link {

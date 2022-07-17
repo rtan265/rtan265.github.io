@@ -1,4 +1,8 @@
 .App {
   text-align: center;
+  background-color: #D0F3F7;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: medium;
 }
 
