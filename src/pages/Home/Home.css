@@ -5,6 +5,7 @@
   height: 30%;
   width: 30%;
   float: left;
+  background: transparent;
 }
 
 .home-div {
@@ -16,6 +17,11 @@
   width: 50%;
   float: right;
   font-weight: bold;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.ryan-intro-background {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 h4 {

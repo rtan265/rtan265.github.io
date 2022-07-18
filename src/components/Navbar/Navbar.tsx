@@ -10,12 +10,14 @@ export default function Navbar() {
   return (
     <div className="main-nav">
       <div className="left-side">
-        <Link to="/" className = "nav-link">🏠</Link>
-        <Link to="/blog" className = "nav-link">Blog</Link>
-        <Link to="/projects" className = "nav-link">Projects</Link>
+        <Link to="/" className = "nav-link">🏠 Home</Link>
+        <Link to="/blog" className = "nav-link">📰 Blog</Link>
+        <Link to="/projects" className = "nav-link">🚧 Projects</Link>
       </div>
       <div className="right-side">
-        <AwesomeButton type="primary">Email me!</AwesomeButton>
+        <AwesomeButton type="primary">
+          <a href="mailto:ryan.tan181818@gmail.com?subject=Contact from website">Email me!</a>
+        </AwesomeButton>
       </div>
     </div>
   )
